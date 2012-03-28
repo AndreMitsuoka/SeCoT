@@ -62,57 +62,6 @@
 			}
 
 		</style>
-		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDyFF-3JC8dszBJFX_VITT76XA5dhogAnE&sensor=true"></script>
-		<script type="text/javascript" src="js/infobox.js"></script>
-		<script type="text/javascript">
-
-			function initialize() {
-
-				var myOptions = {
-					zoom: 14,
-					center: new google.maps.LatLng(-23.580114, -47.525675),
-					disableDefaultUI: true,
-					mapTypeId: google.maps.MapTypeId.ROADMAP
-				}
-
-				var map = new google.maps.Map(document.getElementById("maps"), myOptions);
-
-				var marker = new google.maps.Marker({
-					position: new google.maps.LatLng(-23.580114, -47.525675),
-					map: map,
-					title:"UFSCar Sorocaba"
-				});
-
-				var infoboxOptions = {
-					content: "UFSCar - Campus Sorocaba<br/>Rodovia João Leme dos Santos (SP-264), Km 110<br />Bairro do Itinga - Sorocaba - São Paulo - Brasil<br />CEP 18052-780",
-					disableAutoPan: false,
-					maxWidth: 0,
-					pixelOffset: new google.maps.Size(-450, -60),
-					zIndex: null,
-					boxStyle: { 
-						background: "#FFF",
-						height: "90px",
-						opacity: 1,
-						overflow: "hidden",
-						padding: "10px",
-						width: "365px",
-						"-moz-box-shadow": "0 0 6px #c6c6c6",
-						"-webkit-box-shadow": "0 0 6px #c6c6c6"
-					},
-					closeBoxMargin: "-30px -30px 0 0",
-					infoBoxClearance: new google.maps.Size(1, 1),
-					isHidden: false,
-					pane: "floatPane",
-					enableEventPropagation: false
-				};
-
-				var ib = new InfoBox(infoboxOptions);
-				ib.open(map, marker);
-			}
-
-			window.onload = initialize;
-		</script>
-    </script>
 	</head>
 	<body>
 		<div id="top">
@@ -130,7 +79,7 @@
 				<p> Utilizando o transporte público, é possível tomar os ônibus da URBES, São João ou Piracema. É importante ressaltar que os dois se encontram no Terminal São Paulo (maps aqui).
    -URBES: é necessário adentrar o Terminal, utilizando um cartão unitário (que pode ser comprado na entrada do Terminal) no valor de R$ 2,85 (a confirmar) e tomar o ônibus 80 (UFSCar) no ponto F e o ponto final é na UFSCar. Os horários podem ser vistos aqui.
    -Piracema/São João: é necessário pegar o ônibus fora do Terminal, na região dos bancos, ou na rodoviaria. Este ônibus possui uma placa indicando a viagem Sorocaba X Salto de Pirapora e possui um cartaz na frente indicando UFSCar. O valor de R$ 3,10 deve ser pago ao cobrador. O ponto final do ônibus fica em Salto de Pirapora, portanto é necessário indicar ao motorista que você deseja descer na UFSCar.</p>
-				<div id="maps"></div>
+				<a href="http://g.co/maps/2kkwx"><img src="img/mapagoogle.png" /></a>
 				<span class="pergunta">Quais são as linhas e horários de ônibus?</span>
 				<ul class="horariosOnibus">
 					<li class="piracema">05:00</li>
