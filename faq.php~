@@ -76,7 +76,7 @@
 				<span class="pergunta">Como posso me inscrever?</span>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ante ipsum, ultricies et pharetra laoreet, faucibus at lectus. Sed dui nibh, sodales sit amet pharetra sit amet, ullamcorper vitae odio. Etiam auctor posuere leo, ut sollicitudin erat venenatis vitae. Mauris sagittis mauris sed ante fringilla eget fermentum felis dignissim. Aliquam erat volutpat. Nulla porttitor velit viverra nisi vestibulum non rhoncus purus pulvinar. Curabitur lacus mauris, iaculis eget tincidunt a, ultrices ac nisi. Nunc luctus lacus et nunc eleifend sed suscipit tortor feugiat. Etiam eu enim sit amet libero fermentum rutrum. Duis sed cursus enim.</p>
 				<span class="pergunta">Como chegar?</span>
-				<a href="http://g.co/maps/2kkwx"><img src="img/mapagoogle.png" /></a>
+				<img src="" />
 				<span class="pergunta">Quais são as linhas e horários de ônibus?</span>
 				<ul class="horariosOnibus">
 					<li class="piracema">05:00</li>
