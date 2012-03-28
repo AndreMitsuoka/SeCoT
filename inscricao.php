@@ -86,7 +86,57 @@
 			}
 
 		</style>
-    </script>
+		<script type="text/javascript">
+			window.onload = function(){
+				var submitButton = document.getElementById("submit");
+
+				if (navigator.appName == 'Microsoft Internet Explorer'){
+					submitButton.attachEvent('onclick', submit);
+				} else {
+					submitButton.addEventListener('click', submit, false);
+				}
+
+				function submit(e){
+					console.log(e);
+					
+					if(!validate()){
+						e.preventDefault();
+						e.stopPropagation();
+					}					
+				}
+
+				function validate(){
+					var valid = true;
+					var defaultBorder = "1px solid #ccc";
+
+					var nomeInput = document.getElementById("nome");
+					if(nomeInput.value.length == 0){
+						nomeInput.style.border = "1px solid red";
+						valid = false;
+					} else {
+						nomeInput.style.border = defaultBorder;
+					}
+
+					var emailInput = document.getElementById("email");
+					if(emailInput.value.length == 0){
+						emailInput.style.border = "1px solid red";
+						valid = false;
+					} else {
+						emailInput.style.border = defaultBorder;
+					}
+
+					var rgInput = document.getElementById("rg");
+					if(rgInput.value.length == 0){
+						rgInput.style.border = "1px solid red";
+						valid = false;
+					} else {
+						rgInput.style.border = defaultBorder;
+					}
+
+					return valid;
+				}
+			}
+		</script>
 	</head>
 	<body>
 		<div id="top">
@@ -98,7 +148,7 @@
 				<form>
 					<div id="info">
 						<span>Dados Pessoais:</span></br></br>
-						<input type="text" id="name"		placeholder="Nome" 			/><br />
+						<input type="text" id="nome"		placeholder="Nome" 			/><br />
 						<input type="text" id="email"		placeholder="Email" 		/><br />
 						<input type="text" id="rg"			placeholder="RG" 			/><br />
 						<input type="text" id="instituicao" placeholder="Instituição" 	/><br />

@@ -49,6 +49,7 @@
 				display: inline-block;
 				list-style: none;
 				margin: 10px 40px;
+				vertical-align: top;
 				width: 100px;
 			}
 
