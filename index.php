@@ -41,10 +41,6 @@
 				margin: 0 30px 20px 30px;
 			}
 
-			p a {
-				color: #595959;
-			}
-
 			.side {
 				background-color: #FFF;
 				border-radius: 4px;
