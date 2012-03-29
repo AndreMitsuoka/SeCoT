@@ -45,12 +45,16 @@
 				width: 100%;
 			}
 
+			#horario {
+				margin: 10px 30px;
+			}
+
 			.horariosOnibus {
 				display: inline-block;
 				list-style: none;
-				margin: 10px 40px;
+				margin: 10px 5px;
 				vertical-align: top;
-				width: 100px;
+				width: 50px;
 			}
 
 			.piracema {
@@ -58,14 +62,10 @@
 			}
 
 			.urbes {
-				color: #00CC00;
+				color: #00DD00;
 			}
 
 		</style>
-<<<<<<< HEAD
-    </script>
-=======
->>>>>>> upstream/master
 	</head>
 	<body>
 		<div id="top">
@@ -80,141 +80,151 @@
 				<span class="pergunta">Como posso me inscrever?</span>
 				<p>Inicialmente, você deve fazer um pré-cadastro através do nosso site através deste link.</p>
 				<span class="pergunta">Como chegar?</span>
-<<<<<<< HEAD
-=======
-				<p> Utilizando o transporte público, é possível tomar os ônibus da URBES, São João ou Piracema. É importante ressaltar que os dois se encontram no Terminal São Paulo (maps aqui).
-   -URBES: é necessário adentrar o Terminal, utilizando um cartão unitário (que pode ser comprado na entrada do Terminal) no valor de R$ 2,85 (a confirmar) e tomar o ônibus 80 (UFSCar) no ponto F e o ponto final é na UFSCar. Os horários podem ser vistos aqui.
-   -Piracema/São João: é necessário pegar o ônibus fora do Terminal, na região dos bancos, ou na rodoviaria. Este ônibus possui uma placa indicando a viagem Sorocaba X Salto de Pirapora e possui um cartaz na frente indicando UFSCar. O valor de R$ 3,10 deve ser pago ao cobrador. O ponto final do ônibus fica em Salto de Pirapora, portanto é necessário indicar ao motorista que você deseja descer na UFSCar.</p>
->>>>>>> upstream/master
+
+				<p> Utilizando o transporte público, é possível tomar os ônibus da URBES, São João ou Piracema. É importante ressaltar que os dois se encontram no <a href="http://g.co/maps/exjsp">Terminal São Paulo</a>.
+   -URBES: é necessário adentrar o Terminal, utilizando um cartão unitário (que pode ser comprado na entrada do Terminal) no valor de R$ 2,85 (a confirmar) e tomar o ônibus 80 (UFSCar) no ponto F e o ponto final é na UFSCar (seus horários podem ser vistos mais a baixo).
+   -Piracema/São João: é necessário pegar o ônibus fora do Terminal, na região dos bancos, ou na rodoviária. Este ônibus possui uma placa indicando a viagem Sorocaba X Salto de Pirapora e possui um cartaz na frente indicando UFSCar. O valor de R$ 3,10 deve ser pago ao cobrador. O ponto final do ônibus fica em Salto de Pirapora, portanto é necessário indicar ao motorista que você deseja descer na UFSCar.</p>
 				<a href="http://g.co/maps/2kkwx"><img src="img/mapagoogle.png" /></a>
 				<span class="pergunta">Quais são as linhas e horários de ônibus?</span>
-				<ul class="horariosOnibus">
-					<li class="piracema">05:00</li>
-					<li class="urbes">05:20</li>
-					<li class="piracema">05:30</li>
-					<li class="urbes">05:45</li>
-					<li class="piracema">06:00</li>
-					<li class="urbes">06:10</li>
-					<li class="urbes">06:25</li>
-					<li class="piracema">06:30</li>
-					<li class="urbes">06:45</li>
-					<li class="piracema">06:50</li>
-					<li class="urbes">07:00</li>
-					<li class="urbes">07:10</li>
-					<li class="piracema">07:10</li>
-					<li class="urbes">07:20</li>
-					<li class="urbes">07:25</li>
-					<li class="urbes">07:30</li>
-					<li class="piracema">07:30</li>
-					<li class="urbes">07:35</li>
-					<li class="urbes">07:45</li>
-					<li class="piracema">07:50</li>
-					<li class="piracema">08:10</li>
-					<li class="urbes">08:15</li>
-					<li class="piracema">08:30</li>
-					<li class="urbes">08:35</li>
-				</ul>
-				<ul class="horariosOnibus">
-					<li class="piracema">08:50</li>
-					<li class="urbes">08:55</li>
-					<li class="piracema">09:10</li>
-					<li class="piracema">09:30</li>
-					<li class="urbes">09:35</li>
-					<li class="piracema">09:50</li>
-					<li class="piracema">10:10</li>
-					<li class="urbes">10:25</li>
-					<li class="piracema">10:30</li>
-					<li class="piracema">10:50</li>
-					<li class="piracema">11:10</li>
-					<li class="urbes">11:15</li>
-					<li class="piracema">11:30</li>
-					<li class="piracema">11:50</li>
-					<li class="urbes">12:05</li>
-					<li class="piracema">12:10</li>
-					<li class="piracema">12:30</li>
-					<li class="piracema">12:50</li>
-					<li class="urbes">12:55</li>
-					<li class="piracema">13:10</li>
-					<li class="piracema">13:30</li>
-					<li class="urbes">13:45</li>
-					<li class="piracema">13:45</li>
-					<li class="piracema">14:00</li>
-				</ul>
-				<ul class="horariosOnibus">
-					<li class="piracema">14:15</li>
-					<li class="piracema">14:30</li>
-					<li class="urbes">14:35</li>
-					<li class="piracema">14:45</li>
-					<li class="piracema">15:00</li>
-					<li class="piracema">15:10</li>
-					<li class="piracema">15:20</li>
-					<li class="urbes">15:25</li>
-					<li class="piracema">15:30</li>
-					<li class="piracema">15:40</li>
-					<li class="urbes">15:50</li>
-					<li class="piracema">15:50</li>
-					<li class="piracema">16:00</li>
-					<li class="piracema">16:10</li>
-					<li class="urbes">16:15</li>
-					<li class="piracema">16:18</li>
-					<li class="piracema">16:25</li>
-					<li class="piracema">16:33</li>
-					<li class="urbes">16:40</li>
-					<li class="piracema">16:40</li>
-					<li class="piracema">16:45</li>
-					<li class="piracema">16:50</li>
-					<li class="piracema">16:55</li>
-					<li class="piracema">17:00</li>
-				</ul>
-				<ul class="horariosOnibus">
-					<li class="urbes">17:05</li>
-					<li class="piracema">17:05</li>
-					<li class="piracema">17:12</li>
-					<li class="piracema">17:17</li>
-					<li class="piracema">17:23</li>
-					<li class="urbes">17:30</li>
-					<li class="piracema">17:30</li>
-					<li class="piracema">17:36</li>
-					<li class="piracema">17:42</li>
-					<li class="piracema">17:48</li>
-					<li class="piracema">17:54</li>
-					<li class="urbes">17:55</li>
-					<li class="piracema">18:00</li>
-					<li class="piracema">18:08</li>
-					<li class="piracema">18:16</li>
-					<li class="urbes">18:20</li>
-					<li class="piracema">18:24</li>
-					<li class="piracema">18:32</li>
-					<li class="piracema">18:42</li>
-					<li class="urbes">18:45</li>
-					<li class="piracema">18:55</li>
-					<li class="piracema">19:05</li>
-					<li class="urbes">19:10</li>
-					<li class="piracema">19:20</li>
-				</ul>
-				<ul class="horariosOnibus">
-					<li class="urbes">19:35</li>
-					<li class="piracema">19:40</li>
-					<li class="urbes">20:00</li>
-					<li class="piracema">20:00</li>
-					<li class="piracema">20:20</li>
-					<li class="urbes">20:33</li>
-					<li class="piracema">20:45</li>
-					<li class="urbes">21:06</li>
-					<li class="piracema">21:10</li>
-					<li class="urbes">21:39</li>
-					<li class="piracema">21:40</li>
-					<li class="piracema">21:55</li>
-					<li class="piracema">22:10</li>
-					<li class="urbes">22:12</li>
-					<li class="piracema">22:25</li>
-					<li class="piracema">22:40</li>
-					<li class="piracema">22:55</li>
-					<li class="urbes">23:20</li>
-					<li class="piracema">23:20</li>
-					<li class="urbes">23:51</li>
-					<li class="piracema">00:15</li>
-				</ul>
+				<div id="horario">
+					<ul class="horariosOnibus">
+						<li class="piracema">05:00</li>
+						<li class="urbes">05:20</li>
+						<li class="piracema">05:30</li>
+						<li class="urbes">05:45</li>
+						<li class="piracema">06:00</li>
+						<li class="urbes">06:10</li>
+						<li class="urbes">06:25</li>
+						<li class="piracema">06:30</li>
+						<li class="urbes">06:45</li>
+						<li class="piracema">06:50</li>
+						<li class="urbes">07:00</li>
+						<li class="urbes">07:10</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="piracema">07:10</li>
+						<li class="urbes">07:20</li>
+						<li class="urbes">07:25</li>
+						<li class="urbes">07:30</li>
+						<li class="piracema">07:30</li>
+						<li class="urbes">07:35</li>
+						<li class="urbes">07:45</li>
+						<li class="piracema">07:50</li>
+						<li class="piracema">08:10</li>
+						<li class="urbes">08:15</li>
+						<li class="piracema">08:30</li>
+						<li class="urbes">08:35</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="piracema">08:50</li>
+						<li class="urbes">08:55</li>
+						<li class="piracema">09:10</li>
+						<li class="piracema">09:30</li>
+						<li class="urbes">09:35</li>
+						<li class="piracema">09:50</li>
+						<li class="piracema">10:10</li>
+						<li class="urbes">10:25</li>
+						<li class="piracema">10:30</li>
+						<li class="piracema">10:50</li>
+						<li class="piracema">11:10</li>
+						<li class="urbes">11:15</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="piracema">11:30</li>
+						<li class="piracema">11:50</li>
+						<li class="urbes">12:05</li>
+						<li class="piracema">12:10</li>
+						<li class="piracema">12:30</li>
+						<li class="piracema">12:50</li>
+						<li class="urbes">12:55</li>
+						<li class="piracema">13:10</li>
+						<li class="piracema">13:30</li>
+						<li class="urbes">13:45</li>
+						<li class="piracema">13:45</li>
+						<li class="piracema">14:00</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="piracema">14:15</li>
+						<li class="piracema">14:30</li>
+						<li class="urbes">14:35</li>
+						<li class="piracema">14:45</li>
+						<li class="piracema">15:00</li>
+						<li class="piracema">15:10</li>
+						<li class="piracema">15:20</li>
+						<li class="urbes">15:25</li>
+						<li class="piracema">15:30</li>
+						<li class="piracema">15:40</li>
+						<li class="urbes">15:50</li>
+						<li class="piracema">15:50</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="piracema">16:00</li>
+						<li class="piracema">16:10</li>
+						<li class="urbes">16:15</li>
+						<li class="piracema">16:18</li>
+						<li class="piracema">16:25</li>
+						<li class="piracema">16:33</li>
+						<li class="urbes">16:40</li>
+						<li class="piracema">16:40</li>
+						<li class="piracema">16:45</li>
+						<li class="piracema">16:50</li>
+						<li class="piracema">16:55</li>
+						<li class="piracema">17:00</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="urbes">17:05</li>
+						<li class="piracema">17:05</li>
+						<li class="piracema">17:12</li>
+						<li class="piracema">17:17</li>
+						<li class="piracema">17:23</li>
+						<li class="urbes">17:30</li>
+						<li class="piracema">17:30</li>
+						<li class="piracema">17:36</li>
+						<li class="piracema">17:42</li>
+						<li class="piracema">17:48</li>
+						<li class="piracema">17:54</li>
+						<li class="urbes">17:55</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="piracema">18:00</li>
+						<li class="piracema">18:08</li>
+						<li class="piracema">18:16</li>
+						<li class="urbes">18:20</li>
+						<li class="piracema">18:24</li>
+						<li class="piracema">18:32</li>
+						<li class="piracema">18:42</li>
+						<li class="urbes">18:45</li>
+						<li class="piracema">18:55</li>
+						<li class="piracema">19:05</li>
+						<li class="urbes">19:10</li>
+						<li class="piracema">19:20</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="urbes">19:35</li>
+						<li class="piracema">19:40</li>
+						<li class="urbes">20:00</li>
+						<li class="piracema">20:00</li>
+						<li class="piracema">20:20</li>
+						<li class="urbes">20:33</li>
+						<li class="piracema">20:45</li>
+						<li class="urbes">21:06</li>
+						<li class="piracema">21:10</li>
+						<li class="urbes">21:39</li>
+						<li class="piracema">21:40</li>
+						<li class="piracema">21:55</li>
+					</ul>
+					<ul class="horariosOnibus">
+						<li class="piracema">22:10</li>
+						<li class="urbes">22:12</li>
+						<li class="piracema">22:25</li>
+						<li class="piracema">22:40</li>
+						<li class="piracema">22:55</li>
+						<li class="urbes">23:20</li>
+						<li class="piracema">23:20</li>
+						<li class="urbes">23:51</li>
+						<li class="piracema">00:15</li>
+					</ul>
+				</div>
 				<span class="pergunta">Quais serão as palestras?</span>
 				<p>Ainda não foram definidas.</p>
 				<span class="pergunta">Quais são as opções de alimentação?</span>
