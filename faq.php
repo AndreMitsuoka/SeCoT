@@ -68,6 +68,11 @@
 				color: #00DD00;
 			}
 
+			#legenda {
+				float: right;
+				margin: 20px 50px 0px 0px;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -84,9 +89,9 @@
 				<p>Inicialmente, você deve fazer um pré-cadastro através do nosso site através deste link.</p>
 				<span class="pergunta">Como chegar?</span>
 
-				<p> Utilizando o transporte público, é possível tomar os ônibus da URBES, São João ou Piracema. É importante ressaltar que os dois se encontram no <a href="http://g.co/maps/exjsp">Terminal São Paulo</a>.
-   -URBES: é necessário adentrar o Terminal, utilizando um cartão unitário (que pode ser comprado na entrada do Terminal) no valor de R$ 2,85 (a confirmar) e tomar o ônibus 80 (UFSCar) no ponto F e o ponto final é na UFSCar (seus horários podem ser vistos mais a baixo).
-   -Piracema/São João: é necessário pegar o ônibus fora do Terminal, na região dos bancos, ou na rodoviária. Este ônibus possui uma placa indicando a viagem Sorocaba X Salto de Pirapora e possui um cartaz na frente indicando UFSCar. O valor de R$ 3,10 deve ser pago ao cobrador. O ponto final do ônibus fica em Salto de Pirapora, portanto é necessário indicar ao motorista que você deseja descer na UFSCar.</p>
+				<p> Utilizando o transporte público, é possível tomar os ônibus da URBES, São João ou Piracema. É importante ressaltar que os dois se encontram no <a href="http://g.co/maps/exjsp">Terminal São Paulo</a>.</p>
+				<p>URBES: é necessário adentrar o Terminal, utilizando um cartão unitário (que pode ser comprado na entrada do Terminal) no valor de R$ 2,85 (a confirmar) e tomar o ônibus 80 (UFSCar) no ponto F e o ponto final é na UFSCar (seus horários podem ser vistos mais a baixo).</p>
+   				<p>Piracema/São João: é necessário pegar o ônibus fora do Terminal, na região dos bancos, ou na rodoviária. Este ônibus possui uma placa indicando a viagem Sorocaba X Salto de Pirapora e possui um cartaz na frente indicando UFSCar. O valor de R$ 3,10 deve ser pago ao cobrador. O ponto final do ônibus fica em Salto de Pirapora, portanto é necessário indicar ao motorista que você deseja descer na UFSCar.</p>
 				<a href="http://g.co/maps/2kkwx"><img src="img/mapagoogle.png" /></a>
 				<span class="pergunta">Quais são as linhas e horários de ônibus?</span>
 				<div id="horario">
@@ -227,6 +232,10 @@
 						<li class="urbes">23:51</li>
 						<li class="piracema">00:15</li>
 					</ul>
+					<div id="legenda">
+						<span class="urbes">&#9632;</span> Urbes<br />
+						<span class="piracema">&#9632;</span> Piracema/São João
+					</div>
 				</div>
 				<span class="pergunta">Quais serão as palestras?</span>
 				<p>Ainda não foram definidas.</p>

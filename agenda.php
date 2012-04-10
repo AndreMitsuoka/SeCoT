@@ -65,6 +65,20 @@
 				text-align: center;
 			}
 
+			.titulo-palestra {
+				display: block;
+				font-weight: bold;
+				text-align: left;
+				width: 100%;
+			}
+
+			.evento {
+				display: block;
+				font-weight: bold;
+				text-align: center;
+				width: 100%;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -85,17 +99,17 @@
 					</tr>
 					<tr>
 						<td class="table-side">9h</td>
-						<td>Recepção e entrega das credenciais<br />Sorteio de brindes da Yazigi</td>
+						<td><span class="titulo-palestra">Recepção e entrega das credenciais</span><br />Sorteio de brindes da Yazigi</td>
 						<td></td>
 						<td></td>
 						<td></td>
-						<td rowspan="7">Mini-Maratona</td>
-						<td rowspan="7">GURU</td>
+						<td rowspan="7"><span class="evento">Mini-Maratona de Programação</span></td>
+						<td rowspan="7"><span class="evento">Encontro GURU</span></td>
 					</tr>
 					<tr>
 						<td class="table-side">10h</td>
 						<td>Tema a confirmar<br/>César - UOL</td>
-						<td>Começando com Node.js<br />Nando</td>
+						<td><span class="titulo-palestra">Começando com Node.js</span><br />Nando</td>
 						<td>Tema a confirmar<br />Oliva</td>
 						<td>Tema a confirmar<br />Dr. Ricardo Oliveira</td>
 					</tr>
@@ -117,7 +131,7 @@
 					<tr>
 						<td class="table-side">16h</td>
 						<td></td>
-						<td>Tema a confirmar<br />Nova.com</td>
+						<td><span class="titulo-palestra">Os desafios de TI no negócio e&#8209;commerce</span><br />Nova.com</td>
 						<td>Tema a confirmar<br />Eher</td>
 						<td>Tema a confirmar<br />André - Claro</td>
 					</tr>

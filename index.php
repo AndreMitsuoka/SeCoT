@@ -119,12 +119,14 @@
 				<div id="data">07 à 12 de Maio</div>
 				<canvas id="countdown" width="260" height="100"></canvas>
 			</div>
+			<!--
 			<div class="side">
 				<div id="inscricao">Inscreva-se</div>
 				<span class="preco">Aluno UFSCar: R$ 15,00</span>
 				<span class="preco">Estudante: R$ 20,00</span>
 				<span class="preco">Demais: R$ 40,00</span>
 			</div>
+			-->
 			<div class="side">
 				<div id="patrocinadores">Patrocinadores</div>
 				<img src="http://www2.ufscar.br/uploads/22581_logoufscar.jpg" class="patrocinio" />
