@@ -21,9 +21,9 @@
 				background-color: #FFF;
 				border-radius: 4px;
 				float: left;
-				margin: 0 10px;
+				margin: 10px;
 				overflow: hidden;
-				width: 960px;
+				width: 950px;
 				-moz-border-radius: 4px;
 				-moz-box-shadow: 0 0 6px #c6c6c6;
 				-webkit-border-radius: 4px;

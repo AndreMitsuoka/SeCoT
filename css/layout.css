@@ -15,12 +15,11 @@
 
 	body {
 		background-color: #efefef;
+		background-image: url("/img/body.gif");
 		min-height: 100%;
 	}
 
 	#top {
-		background-color: #dedede;
-		border-bottom: 1px solid #ccc;
 		height: 170px;
 		width: 100%;
 	}
@@ -38,6 +37,7 @@
 		margin-left: -480px;
 		position: absolute;
 		vertical-align: middle;
+		z-index: 9999;
 	}
 
 	#header span {
@@ -91,14 +91,15 @@
 	}
 		
 	#middle {
-		margin: 40px auto;
+		margin: 0px auto;
+		margin-bottom: 20px;
 		position: relative;
 		width: 960px;
 	}
 
 	#bottom {
-		background-color: #FFF;
-		color: #999;
+		background: #666 url("/img/bottom.png");
+		color: white;
 		height: 50px;
 		line-height: 50px;
 		margin-top: 40px;
