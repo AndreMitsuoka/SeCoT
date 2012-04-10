@@ -84,17 +84,20 @@
 						<td>Sábado<br/>(12/05)</td>
 					</tr>
 					<tr>
-						<td class="table-side">10h</td>
-						<td>Recepção e entrega das credenciais</td>
-						<td rowspan="2">Palestra: Computação Paralela<br />Palestrante: Luiz Irber (INPE)</td>
-						<td rowspan="2">Palestra: Mercado de trabalho no exterior<br />Palestrante: Talita Lencki (Experimento - Sorocaba)</td>
-						<td rowspan="2">Palestra: Software Livre<br />Palestrante: Fabrício Matheus Gonçalves (GêBR - Campinas)</td>
+						<td class="table-side">9h</td>
+						<td>Recepção e entrega das credenciais<br />Sorteio de brindes da Yazigi</td>
+						<td></td>
+						<td></td>
+						<td></td>
 						<td rowspan="7">Mini-Maratona</td>
 						<td rowspan="7">GURU</td>
 					</tr>
 					<tr>
-						<td class="table-side">11h</td>
-						<td>Abertura do evento (formanda Katharina Carrapatoso Garcia)</td>
+						<td class="table-side">10h</td>
+						<td>Tema a confirmar<br/>César - UOL</td>
+						<td>Começando com Node.js<br />Nando</td>
+						<td>Tema a confirmar<br />Oliva</td>
+						<td>Tema a confirmar<br />Dr. Ricardo Oliveira</td>
 					</tr>
 					<tr>
 						<td class="table-side"></td>
@@ -102,28 +105,28 @@
 					</tr>
 					<tr>
 						<td class="table-side">14h</td>
-						<td>Palestra: Cloud Computing<br />Palestrante: Adriano Martins(Serpro)</td>
-						<td>Palestra: Design Patterns e GRASP Palestrante: Fernando de Oliveira Padoan (C.E.S.A.R)</td>
-						<td>Mini-Curso: Ruby on Rails (Fábio Akita - GoNow)<br />ou<br />Palestra: Mercado Financeiro (Home Broker - negociação de ações pela internet)<Br />Palestrante: Edson Ryohei Mizikami (CEO do grupo Mizinvest)</td>
-						<td>Palestra: Metodologia Agile<br />Palestrante: Luiz Fernando Ribeiro (ThoughtWorks - Porto Alegre)</td>
+						<td>Tema a confirmar<br />Dr. Paulo Melo</td>
+						<td>Tema a confirmar<br />Fábio Akita</td>
+						<td></td>
+						<td>Tema a confirmar<br />Dr. Jurandy Gomes de Almeida Jr</td>
 					</tr>
 					<tr>
 						<td class="table-side"></td>
 						<td colspan="4">Coffee Break</td>
 					</tr>				
 					<tr>
-						<td class="table-side">16h30</td>
-						<td>Palestra: Startup<br />Palestrante: Jonny Ken Itaya (CEO do Migre.me)</td>
-						<td>Palestra: Desenvolvimento Mobile (plataforma Android)<br />Palestrante: Renato Molina Toth (C.E.S.A.R.)</td>
-						<td>Mini-Curso: Ruby on Rails (Fábio Akita)<br />ou<br />Palestra: Computação Forense (crimes virtuais e investigação)<br />Palestrante: Claudemir Costa Santos (Polícia Civil)</td>
-						<td>Palestra: Plano de Carreira<br />Palestrante: Raphael Marcos Menderico (Google - Belo Horizonte)</td>
+						<td class="table-side">16h</td>
+						<td></td>
+						<td>Tema a confirmar<br />Nova.com</td>
+						<td>Tema a confirmar<br />Eher</td>
+						<td>Tema a confirmar<br />André - Claro</td>
 					</tr>
 					<tr>
-						<td class="table-side">19h30</td>
-						<td>Mini-Curso: PHP - sites dinâmicos (Endel Guimarães Silva)</td>
-						<td>Mini-Curso: PHP - sites dinâmicos (Endel Guimarães Silva)</td>
-						<td>Mini-Curso: Latex (Francisco Augusto César de Camargo Bellaz Guiraldelli)</td>
-						<td>Mini-Curso: Latex (Francisco Augusto César de Camargo Bellaz Guiraldelli)</td>
+						<td class="table-side">18h</td>
+						<td></td>
+						<td></td>
+						<td>Dojo</td>
+						<td></td>
 					</tr>
 				</table>
 			</div>
