@@ -1,7 +1,10 @@
 <?php
+
+	/*
 	if(!isset($_GET["view"]) || $_GET["view"] != "test"){
 		exit();
 	}
+	*/
 
 	$page = "agenda";
 ?>

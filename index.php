@@ -1,7 +1,10 @@
 <?php
+
+	/*
 	if(!isset($_GET["view"]) || $_GET["view"] != "test"){
 		exit();
 	}
+	*/
 
 	$page = "index";
 ?>
@@ -125,7 +128,6 @@
 			<div class="side">
 				<div id="patrocinadores">Patrocinadores</div>
 				<img src="http://www2.ufscar.br/uploads/22581_logoufscar.jpg" class="patrocinio" />
-				<img src="https://www.google.com.br/images/srpr/logo3w.png" class="patrocinio" />
 				<img src="http://desconto.yazigi.com.br/assets/yazigi/logo-e6c24a57d4ab65cdc7cb04390c44098a.png" class="patrocinio" />
 			</div>
 			<div class="clear"></div>
