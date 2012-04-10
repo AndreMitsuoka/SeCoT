@@ -47,6 +47,14 @@
 				width: 148px;
 			}
 
+			table td a {
+				color: black;
+				display: block;
+				min-height: 120px;
+				position: relative;
+				text-decoration: none;
+			}
+
 			.table-header {
 				background-color: #0e5b8c;
 				color: #FFF;
@@ -68,15 +76,36 @@
 			.titulo-palestra {
 				display: block;
 				font-weight: bold;
+				position: absolute;
 				text-align: left;
+				top: 5px;
+				width: 100%;
+			}
+
+			.palestrante {
+				bottom: 5px;
+				display: block;
+				position: absolute;
+				text-align: right;
 				width: 100%;
 			}
 
 			.evento {
+				color: black;
 				display: block;
 				font-weight: bold;
 				text-align: center;
+				text-decoration: none;
 				width: 100%;
+			}
+
+			.centralizado {
+				font-weight: bold;
+				text-align: center;
+			}
+
+			.centralizado-vertical {
+				vertical-align: middle;
 			}
 
 		</style>
@@ -99,47 +128,110 @@
 					</tr>
 					<tr>
 						<td class="table-side">9h</td>
-						<td><span class="titulo-palestra">Recepção e entrega das credenciais</span><br />Sorteio de brindes da Yazigi</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Recepção e entrega das credenciais</span><br />
+								<span class="palestrante">Sorteio de brindes da Yazigi</span>
+							</a>
+						</td>
 						<td></td>
 						<td></td>
 						<td></td>
-						<td rowspan="7"><span class="evento">Mini-Maratona de Programação</span></td>
-						<td rowspan="7"><span class="evento">Encontro GURU</span></td>
+						<td rowspan="7">
+							<a href="/maratona" class="evento">Mini-Maratona de Programação</a>
+						</td>
+						<td rowspan="7">
+							<a href="http://gurusorocaba.com.br/" class="evento">Encontro GURU</a>
+						</td>
 					</tr>
 					<tr>
 						<td class="table-side">10h</td>
-						<td>Tema a confirmar<br/>César - UOL</td>
-						<td><span class="titulo-palestra">Começando com Node.js</span><br />Nando</td>
-						<td>Tema a confirmar<br />Oliva</td>
-						<td>Tema a confirmar<br />Dr. Ricardo Oliveira</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Tema a confirmar</span><br/>
+								<span class="palestrante">César - UOL</span>
+							</a>
+						</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Começando com Node.js</span><br />
+								<span class="palestrante">Nando</span>
+							</a>
+						</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Tema a confirmar</span><br />
+								<span class="palestrante">Oliva</span>
+							</a>
+						</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Tema a confirmar</span><br />
+								<span class="palestrante">Dr. Ricardo Oliveira</span>
+							</a>
+						</td>
 					</tr>
 					<tr>
 						<td class="table-side"></td>
-						<td colspan="4">Tempo Livre</td>
+						<td colspan="4" class="centralizado">Tempo Livre</td>
 					</tr>
 					<tr>
 						<td class="table-side">14h</td>
-						<td>Tema a confirmar<br />Dr. Paulo Melo</td>
-						<td>Tema a confirmar<br />Fábio Akita</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Tema a confirmar</span><br />
+								<span class="palestrante">Dr. Paulo Melo</span>
+							</a>
+						</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Tema a confirmar</span><br />
+								<span class="palestrante">Fábio Akita</span>
+							</a>
+						</td>
 						<td></td>
-						<td>Tema a confirmar<br />Dr. Jurandy Gomes de Almeida Jr</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Tema a confirmar</span><br />
+								<span class="palestrante">Dr. Jurandy Gomes de Almeida Jr</span>
+							</a>
+						</td>
 					</tr>
 					<tr>
 						<td class="table-side"></td>
-						<td colspan="4">Coffee Break</td>
+						<td colspan="4" class="centralizado">Coffee Break</td>
 					</tr>				
 					<tr>
 						<td class="table-side">16h</td>
 						<td></td>
-						<td><span class="titulo-palestra">Os desafios de TI no negócio e&#8209;commerce</span><br />Nova.com</td>
-						<td>Tema a confirmar<br />Eher</td>
-						<td>Tema a confirmar<br />André - Claro</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Os desafios de TI no negócio e&#8209;commerce</span><br />
+								<span class="palestrante">Nova.com</span>
+							</a>
+						</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Tema a confirmar</span><br />
+								<span class="palestrante">Eher</span>
+							</a>
+						</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Tema a confirmar</span><br />
+								<span class="palestrante">André - Claro</span>
+							</a>
+						</td>
 					</tr>
 					<tr>
 						<td class="table-side">18h</td>
 						<td></td>
 						<td></td>
-						<td>Dojo</td>
+						<td>
+							<a href="#" class="palestra">
+								<span class="titulo-palestra">Dojo</span>
+							</a>
+						</td>
 						<td></td>
 					</tr>
 				</table>
