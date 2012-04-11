@@ -1,11 +1,4 @@
 <?php
-
-	/*
-	if(!isset($_GET["view"]) || $_GET["view"] != "test"){
-		exit();
-	}
-	*/
-
 	$page = "agenda";
 ?>
 <!doctype html>
@@ -13,8 +6,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>IV SeCoT</title>
-		<link type="text/css" rel="stylesheet" href="css/fonts.css" />
-		<link type="text/css" rel="stylesheet" href="css/layout.css" />
+		<link type="text/css" rel="stylesheet" href="/css/fonts.css" />
+		<link type="text/css" rel="stylesheet" href="/css/layout.css" />
 		<style type="text/css">
 
 			#content {

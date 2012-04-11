@@ -51,7 +51,7 @@
 		</div>
 		<div id="middle">
 			<div id="content">
-				<span class="titulo"><?php print_r($_GET); ?></span>
+				<span class="titulo"><?php echo $_GET['p']; ?></span>
 				<p>SeCoT é a sigla para Semana da Computação e Tecnologia, um evento realizado pelos alunos de Ciências da Computação da UFSCar Sorocaba. Seu foco é disseminar conhecimentos e gerar debates sobre computação e suas tecnologias, introduzir às diversas carreiras no mercado de trabalho e gerar networking entre a comunidade.</p>						
 			</div>
 			<div class="clear"></div>
