@@ -141,8 +141,8 @@
 						<tr>
 							<td class="table-side">10h</td>
 							<td>
-								<a href="#" class="palestra">
-									<span class="titulo-palestra">Tema a confirmar</span><br/>
+								<a href="/agenda/scrum-ou-kanban-qual-voce-usaria" class="palestra">
+									<span class="titulo-palestra">Scrum ou Kanban, qual você usaria?</span><br/>
 									<span class="palestrante">César - UOL</span>
 								</a>
 							</td>
@@ -153,9 +153,9 @@
 								</a>
 							</td>
 							<td>
-								<a href="#" class="palestra">
-									<span class="titulo-palestra">Tema a confirmar</span><br />
-									<span class="palestrante">Oliva</span>
+								<a href="/agenda/sexo-drogas-e-software-livre" class="palestra">
+									<span class="titulo-palestra">Sexo, Drogas e Software Livre</span><br />
+									<span class="palestrante">Alexandre Oliva</span>
 								</a>
 							</td>
 							<td>
@@ -172,8 +172,8 @@
 						<tr>
 							<td class="table-side">14h</td>
 							<td>
-								<a href="#" class="palestra">
-									<span class="titulo-palestra">Tema a confirmar</span><br />
+								<a href="/agenda/inovacao-centrada-no-usuario" class="palestra">
+									<span class="titulo-palestra">Inovação centrada no usuário</span><br />
 									<span class="palestrante">Dr. Paulo Melo</span>
 								</a>
 							</td>
@@ -236,5 +236,6 @@
 		<div id="bottom">
 			&copy; 2012 Universidade Federal de São Carlos - Campus Sorocaba
 		</div>
+		<?php include "tracking.php" ?>
 	</body>
 </html>

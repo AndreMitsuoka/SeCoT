@@ -39,8 +39,11 @@
 			}
 
 			p {
-				font: 15px/20px 'RobotoLight', Arial, sans-serif;
+				font: 15px/25px 'RobotoLight', Arial, sans-serif;
 				margin: 0px 10px 30px 30px;
+				text-align: justify;
+				text-indent: 2em;
+				width: 890px;
 			}
 
 		</style>
@@ -61,5 +64,6 @@
 		<div id="bottom">
 			&copy; 2012 Universidade Federal de São Carlos - Campus Sorocaba
 		</div>
+		<?php include "tracking.php" ?>
 	</body>
 </html>

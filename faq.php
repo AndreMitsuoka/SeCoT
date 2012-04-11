@@ -29,17 +29,21 @@
 				-webkit-border-radius: 4px;
 				-webkit-box-shadow: 0 0 6px #c6c6c6;
 			}
+
 			.pergunta {
 				color: #000;
 				display: block;
 				font: 20px/30px 'RobotoRegular', Arial, sans-serif;
-				margin: 30px 50px 0px 30px;
+				margin: 30px 50px 10px 30px;
 				width: 600px;
 			}
 
 			p {
-				font: 15px/20px 'RobotoLight', Arial, sans-serif;
+				font: 15px/25px 'RobotoLight', Arial, sans-serif;
 				margin: 0px 10px 30px 30px;
+				text-align: justify;
+				text-indent: 2em;
+				width: 890px;
 			}
 
 			#maps {
@@ -253,5 +257,6 @@
 		<div id="bottom">
 			&copy; 2012 Universidade Federal de São Carlos - Campus Sorocaba
 		</div>
+		<?php include "tracking.php" ?>
 	</body>
 </html>
