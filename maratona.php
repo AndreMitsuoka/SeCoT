@@ -46,15 +46,17 @@
 		</style>
 	</head>
 	<body>
-		<div id="top">
-			<?php include "header.php" ?>
-		</div>
-		<div id="middle">
-			<div id="content">
-				<span class="titulo">Maratona de Programação</span>
-				<p>SeCoT é a sigla para Semana da Computação e Tecnologia, um evento realizado pelos alunos de Ciências da Computação da UFSCar Sorocaba. Seu foco é disseminar conhecimentos e gerar debates sobre computação e suas tecnologias, introduzir às diversas carreiras no mercado de trabalho e gerar networking entre a comunidade.</p>						
+		<div id="w">
+			<div id="top">
+				<?php include "header.php" ?>
 			</div>
-			<div class="clear"></div>
+			<div id="middle">
+				<div id="content">
+					<span class="titulo">Maratona de Programação</span>
+					<p>SeCoT é a sigla para Semana da Computação e Tecnologia, um evento realizado pelos alunos de Ciências da Computação da UFSCar Sorocaba. Seu foco é disseminar conhecimentos e gerar debates sobre computação e suas tecnologias, introduzir às diversas carreiras no mercado de trabalho e gerar networking entre a comunidade.</p>						
+				</div>
+				<div class="clear"></div>
+			</div>
 		</div>
 		<div id="bottom">
 			&copy; 2012 Universidade Federal de São Carlos - Campus Sorocaba

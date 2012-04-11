@@ -1,9 +1,9 @@
 Options -MultiViews
 RewriteEngine on
 
-RewriteRule ^(/)?$ index.php [L]
-RewriteRule ^agenda/([\w-_]+)$ palestra.php?p=$1 [L]
-RewriteRule ^agenda(/)?$ agenda.php [L]
-RewriteRule ^faq(/)?$ faq.php [L]
-RewriteRule ^inscricao(/)?$ inscricao.php [L]
-RewriteRule ^maratona(/)?$ maratona.php [L]
+RewriteRule ^/?$ index.php [L]
+RewriteRule ^agenda/([\w-_]+)/?$ palestra.php?p=$1 [L]
+RewriteRule ^agenda/?$ agenda.php [L]
+RewriteRule ^faq/?$ faq.php [L]
+RewriteRule ^inscricao/?$ inscricao.php [L]
+RewriteRule ^maratona/?$ maratona.php [L]

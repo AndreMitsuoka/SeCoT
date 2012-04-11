@@ -54,15 +54,17 @@ Você verá alguns conceitos de JavaScript, além de um tutorial prático de Nod
 		</style>
 	</head>
 	<body>
-		<div id="top">
-			<?php include "header.php" ?>
-		</div>
-		<div id="middle">
-			<div id="content">
-				<span class="titulo"><?php echo $title; ?></span>
-				<p><?php echo $description; ?></p>
+		<div id="w">
+			<div id="top">
+				<?php include "header.php" ?>
 			</div>
-			<div class="clear"></div>
+			<div id="middle">
+				<div id="content">
+					<span class="titulo"><?php echo $title; ?></span>
+					<p><?php echo $description; ?></p>
+				</div>
+				<div class="clear"></div>
+			</div>
 		</div>
 		<div id="bottom">
 			&copy; 2012 Universidade Federal de São Carlos - Campus Sorocaba

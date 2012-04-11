@@ -11,12 +11,19 @@
 		padding: 0;
 	}
 
-	html { height: 100%; width: 100%; }
+	html, body { height: 100%; width: 100%; }
 
 	body {
 		background-color: #efefef;
 		background-image: url("/img/body.gif");
+	}
+
+	#w {
 		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 0 -60px;
+		width: 100%;
 	}
 
 	#top {
@@ -92,7 +99,6 @@
 		
 	#middle {
 		margin: 0px auto;
-		margin-bottom: 20px;
 		position: relative;
 		width: 960px;
 	}
@@ -102,7 +108,7 @@
 		color: white;
 		height: 50px;
 		line-height: 50px;
-		margin-top: 40px;
+		margin-top: 10px;
 		text-align: center;
 		vertical-align: middle;
 		width: 100%;
@@ -112,6 +118,7 @@
 
 	.clear {
 		clear: both;
+		height: 60px;
 	}
 
 	a {
