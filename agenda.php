@@ -146,7 +146,7 @@
 							</a>
 						</td>
 						<td>
-							<a href="#" class="palestra">
+							<a href="/agenda/comecando-com-nodejs" class="palestra">
 								<span class="titulo-palestra">Começando com Node.js</span><br />
 								<span class="palestrante">Nando</span>
 							</a>

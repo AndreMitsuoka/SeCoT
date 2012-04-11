@@ -1,12 +1,20 @@
 <?php
+	$page = "palestra";
 
-	/*
-	if(!isset($_GET["view"]) || $_GET["view"] != "test"){
+	$slug = $_GET['p'];
+
+	$palestras = array();
+
+	$palestras['comecando-com-nodejs']['title'] = "Começando com Node.JS";
+	$palestras['comecando-com-nodejs']['description'] = "Veja como desenvolver aplicativos realtime usando Node.js nesta introdução prática.
+Você verá alguns conceitos de JavaScript, além de um tutorial prático de Node.js";
+
+	if(!isset($palestras[$slug])){
 		exit();
 	}
-	*/
 
-	$page = "maratona";
+	$title 		 = $palestras[$slug]['title'];
+	$description = $palestras[$slug]['description'];
 ?>
 <!doctype html>
 <html>
@@ -51,8 +59,8 @@
 		</div>
 		<div id="middle">
 			<div id="content">
-				<span class="titulo"><?php echo $_GET['p']; ?></span>
-				<p>SeCoT é a sigla para Semana da Computação e Tecnologia, um evento realizado pelos alunos de Ciências da Computação da UFSCar Sorocaba. Seu foco é disseminar conhecimentos e gerar debates sobre computação e suas tecnologias, introduzir às diversas carreiras no mercado de trabalho e gerar networking entre a comunidade.</p>						
+				<span class="titulo"><?php echo $title; ?></span>
+				<p><?php echo $description; ?></p>
 			</div>
 			<div class="clear"></div>
 		</div>
