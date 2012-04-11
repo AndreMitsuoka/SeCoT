@@ -1,8 +1,11 @@
-Options -MultiViews
+#Options -MultiViews
 RewriteEngine on
+
+RewriteBase /secot/
 
 RewriteRule ^/?$ index.php [L]
 RewriteRule ^agenda/([\w-_]+)/?$ palestra.php?p=$1 [L]
+RewriteRule ^agenda.php/([\w-_]+)/?$ palestra.php?p=$1 [L]
 RewriteRule ^agenda/?$ agenda.php [L]
 RewriteRule ^faq/?$ faq.php [L]
 RewriteRule ^inscricao/?$ inscricao.php [L]

@@ -1,5 +1,5 @@
 <?php
-
+	require "head.php";
 	$page = "index";
 	require "palestras.db.php";
 ?>
@@ -8,8 +8,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>IV SeCoT</title>
-		<link type="text/css" rel="stylesheet" href="css/fonts.css" />
-		<link type="text/css" rel="stylesheet" href="css/layout.css" />
+		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/fonts.css" />
+		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/layout.css" />
 		<style type="text/css">
 
 			.content {
@@ -103,7 +103,7 @@
 			}
 
 		</style>
-		<script type="text/javascript" src="js/countdown.js"></script>
+		<script type="text/javascript" src="<?php echo $urlbase; ?>/js/countdown.js"></script>
 	</head>
 	<body>
 		<div id="w">
@@ -122,7 +122,7 @@
 					<span class="titulo">Destaques:</span>
 					<?php
 						foreach ($palestras as $key=>$palestra) {
-							echo '<a href="/agenda/'.$key.'" class="palestra" >';
+							echo '<a href="'.$urlbase.'/agenda/'.$key.'" class="palestra" >';
 							echo $palestra['titulo'].' - '.$palestra['palestrante'];
 							echo '</a><br />';
 						}

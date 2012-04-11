@@ -1,11 +1,6 @@
 <?php
 
-	/*
-	if(!isset($_GET["view"]) || $_GET["view"] != "test"){
-		exit();
-	}
-	*/
-
+	require "head.php";
 	$page = "maratona";
 ?>
 <!doctype html>
@@ -13,8 +8,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>IV SeCoT</title>
-		<link type="text/css" rel="stylesheet" href="/css/fonts.css" />
-		<link type="text/css" rel="stylesheet" href="/css/layout.css" />
+		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/fonts.css" />
+		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/layout.css" />
 		<style type="text/css">
 
 			#content {
@@ -56,7 +51,6 @@
 			<div id="middle">
 				<div id="content">
 					<span class="titulo">Maratona de Programação</span>
-					<p>SeCoT é a sigla para Semana da Computação e Tecnologia, um evento realizado pelos alunos de Ciências da Computação da UFSCar Sorocaba. Seu foco é disseminar conhecimentos e gerar debates sobre computação e suas tecnologias, introduzir às diversas carreiras no mercado de trabalho e gerar networking entre a comunidade.</p>						
 				</div>
 				<div class="clear"></div>
 			</div>

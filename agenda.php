@@ -1,4 +1,5 @@
 <?php
+	require "head.php";
 	$page = "agenda";
 ?>
 <!doctype html>
@@ -6,8 +7,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>IV SeCoT</title>
-		<link type="text/css" rel="stylesheet" href="/css/fonts.css" />
-		<link type="text/css" rel="stylesheet" href="/css/layout.css" />
+		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/fonts.css" />
+		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/layout.css" />
 		<style type="text/css">
 
 			#content {
@@ -132,7 +133,7 @@
 							<td></td>
 							<td></td>
 							<td rowspan="7">
-								<a href="/maratona" class="evento">Mini-Maratona de Programação</a>
+								<a href="<?php echo $urlbase; ?>/maratona" class="evento">Mini-Maratona de Programação</a>
 							</td>
 							<td rowspan="7">
 								<a href="http://gurusorocaba.com.br/" class="evento">Encontro GURU</a>
@@ -141,19 +142,19 @@
 						<tr>
 							<td class="table-side">10h</td>
 							<td>
-								<a href="/agenda/scrum-ou-kanban-qual-voce-usaria" class="palestra">
+								<a href="<?php echo $urlbase; ?>/agenda/scrum-ou-kanban-qual-voce-usaria" class="palestra">
 									<span class="titulo-palestra">Scrum ou Kanban, qual você usaria?</span><br/>
 									<span class="palestrante">César - UOL</span>
 								</a>
 							</td>
 							<td>
-								<a href="/agenda/comecando-com-nodejs" class="palestra">
+								<a href="<?php echo $urlbase; ?>/agenda/comecando-com-nodejs" class="palestra">
 									<span class="titulo-palestra">Começando com Node.js</span><br />
 									<span class="palestrante">Nando</span>
 								</a>
 							</td>
 							<td>
-								<a href="/agenda/sexo-drogas-e-software-livre" class="palestra">
+								<a href="<?php echo $urlbase; ?>/agenda/sexo-drogas-e-software-livre" class="palestra">
 									<span class="titulo-palestra">Sexo, Drogas e Software Livre</span><br />
 									<span class="palestrante">Alexandre Oliva</span>
 								</a>
@@ -172,7 +173,7 @@
 						<tr>
 							<td class="table-side">14h</td>
 							<td>
-								<a href="/agenda/inovacao-centrada-no-usuario" class="palestra">
+								<a href="<?php echo $urlbase; ?>/agenda/inovacao-centrada-no-usuario" class="palestra">
 									<span class="titulo-palestra">Inovação centrada no usuário</span><br />
 									<span class="palestrante">Dr. Paulo Melo</span>
 								</a>

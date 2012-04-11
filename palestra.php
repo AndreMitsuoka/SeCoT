@@ -1,4 +1,5 @@
 <?php
+	require "head.php";
 	$page = "palestra";
 
 	$slug = $_GET['p'];
@@ -19,8 +20,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>IV SeCoT</title>
-		<link type="text/css" rel="stylesheet" href="/css/fonts.css" />
-		<link type="text/css" rel="stylesheet" href="/css/layout.css" />
+		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/fonts.css" />
+		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/layout.css" />
 		<style type="text/css">
 
 			#content {
