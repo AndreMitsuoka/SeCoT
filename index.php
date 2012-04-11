@@ -1,12 +1,7 @@
 <?php
 
-	/*
-	if(!isset($_GET["view"]) || $_GET["view"] != "test"){
-		exit();
-	}
-	*/
-
 	$page = "index";
+	require "palestras.db.php";
 ?>
 <!doctype html>
 <html>
@@ -95,6 +90,18 @@
 				width: 220px;
 			}
 
+			.palestra {
+				color: #000;
+				display: inline-block;
+				font: 20px/30px 'RobotoLight', Arial, sans-serif;
+				margin: 10px 30px;
+				text-decoration: none;
+			}
+
+			.palestra:hover {
+				text-decoration: underline;	
+			}
+
 		</style>
 		<script type="text/javascript" src="js/countdown.js"></script>
 	</head>
@@ -112,8 +119,15 @@
 					<p>Contamos com a sua presença!</p>
 				</div>
 				<div class="content">
-					<span class="titulo">Palestrantes:</span>
-					<p>Em breve...</p>
+					<span class="titulo">Destaques:</span>
+					<?php
+						foreach ($palestras as $key=>$palestra) {
+							echo '<a href="/agenda/'.$key.'" class="palestra" >';
+							echo $palestra['titulo'].' - '.$palestra['palestrante'];
+							echo '</a><br />';
+						}
+					?>
+					<br /><br />
 				</div>
 				<div class="content">
 					<span class="titulo">Fotos do evento:</span>

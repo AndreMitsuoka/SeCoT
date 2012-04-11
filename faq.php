@@ -91,7 +91,7 @@
 					<span class="pergunta">Quando será a edição 2012?</span>
 					<p>A edição 2012 será realizada entre 07 e 12 de maio.</p>
 					<span class="pergunta">Como posso me inscrever?</span>
-					<p>Inicialmente, você deve fazer um pré-cadastro através do nosso site através deste link.</p>
+					<p>Inicialmente, você deve fazer um pré-cadastro através do nosso site e então procurar um membro da organização para realizar o pagamento da taxa de inscrição. A data inicial será divulgada futuramente.</p>
 					<span class="pergunta">Como chegar?</span>
 
 					<p> Utilizando o transporte público, é possível tomar os ônibus da URBES, São João ou Piracema. É importante ressaltar que os dois se encontram no <a href="http://g.co/maps/exjsp">Terminal São Paulo</a>.</p>
@@ -243,13 +243,15 @@
 						</div>
 					</div>
 					<span class="pergunta">Quais serão as palestras?</span>
-					<p>Ainda não foram definidas.</p>
+					<p>A lista completa de palestras pode ser visualizada na página incial ou através da agenda do evento.</p>
+					<!--
 					<span class="pergunta">Quais são as opções de alimentação?</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ante ipsum, ultricies et pharetra laoreet, faucibus at lectus. Sed dui nibh, sodales sit amet pharetra sit amet, ullamcorper vitae odio. Etiam auctor posuere leo, ut sollicitudin erat venenatis vitae. Mauris sagittis mauris sed ante fringilla eget fermentum felis dignissim. Aliquam erat volutpat. Nulla porttitor velit viverra nisi vestibulum non rhoncus purus pulvinar. Curabitur lacus mauris, iaculis eget tincidunt a, ultrices ac nisi. Nunc luctus lacus et nunc eleifend sed suscipit tortor feugiat. Etiam eu enim sit amet libero fermentum rutrum. Duis sed cursus enim.</p>
+					-->
 					<span class="pergunta">Eu recebo um certificado ao final do evento?</span>
 					<p>Sim, você receberá um certificado após o término do evento. Será divulgada uma data para retirá-lo na UFSCar Sorocaba.</p>
 					<span class="pergunta">Quem são os organizadores do evento?</span>
-					<p>Os alunos de Ciência da Computação da UFSCar Sorocaba: ....</p>						
+					<p>A SeCoT é organizada anualmente pelos alunos de Ciência da Computação da UFSCar Sorocaba.</p>						
 				</div>
 				<div class="clear"></div>
 			</div>
