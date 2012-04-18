@@ -1,9 +1,7 @@
 <?php
-	if(!isset($_GET["view"]) || $_GET["view"] != "test"){
-		exit();
-	}
-
+	require "head.php";
 	$page = "inscricao";
+	require "palestras.db.php";
 ?>
 <!doctype html>
 <html>
@@ -18,9 +16,9 @@
 				background-color: #FFF;
 				border-radius: 4px;
 				float: left;
-				margin: 0 10px;
+				margin: 10px;
 				overflow: hidden;
-				width: 960px;
+				width: 950px;
 				-moz-border-radius: 4px;
 				-moz-box-shadow: 0 0 6px #c6c6c6;
 				-webkit-border-radius: 4px;
@@ -55,6 +53,7 @@
 			#palestras {
 				display: inline-block;
 				vertical-align: top;
+				width: 420px;
 			}
 
 			#palestras {
@@ -67,7 +66,16 @@
 			}
 
 			#palestras input {
+				display: inline-block;
 				margin-right: 10px;
+				vertical-align: middle;
+			}
+
+			.titulo-palestra {
+				display: inline-block;
+				vertical-align: middle;
+				margin: 7px 0px;
+				width: 387px;
 			}
 
 			#submit {
@@ -139,32 +147,36 @@
 		</script>
 	</head>
 	<body>
-		<div id="top">
-			<?php include "header.php" ?>
-		</div>
-		<div id="middle">
-			<div id="content">
-				<div class="title">Inscrição</div>
-				<form>
-					<div id="info">
-						<span>Dados Pessoais:</span></br></br>
-						<input type="text" id="nome"		placeholder="Nome" 			/><br />
-						<input type="text" id="email"		placeholder="Email" 		/><br />
-						<input type="text" id="rg"			placeholder="RG" 			/><br />
-						<input type="text" id="instituicao" placeholder="Instituição" 	/><br />
-					</div>
-					<div id="palestras">
-						<span>Palestras escolhidas:</span></br></br>
-						<input type="checkbox" />Design centrado no Usuário - Dr. Paulo Mello<br/>
-						<input type="checkbox" />Javascript - Nando<br/>
-						<input type="checkbox" />?? - Dr. Ricardo Oliveira<br/>
-						<input type="checkbox" />?? - Dr. Jurandy Gomes de Almeida Jr<br/>
-						<input type="checkbox" />?? - Andre (Claro)<br/>
-					</div>
-					<input type="submit" value="Concluir inscrição" id="submit" />
-				</form>
+		<div id="w">
+			<div id="top">
+				<?php include "header.php" ?>
 			</div>
-			<div class="clear"></div>
+			<div id="middle">
+				<div id="content">
+					<div class="title">Inscrição</div>
+					<form>
+						<div id="info">
+							<span>Dados Pessoais:</span></br></br>
+							<input type="text" id="nome"		placeholder="Nome" 			/><br />
+							<input type="text" id="email"		placeholder="Email" 		/><br />
+							<input type="text" id="rg"			placeholder="RG" 			/><br />
+							<input type="text" id="instituicao" placeholder="Instituição" 	/><br />
+						</div>
+						<div id="palestras">
+							<span>Palestras escolhidas:</span></br></br>
+							<?php
+
+							foreach ($palestras as $key=>$palestra) {
+								echo '<input type="checkbox" value="'.$key.'" /><div class="titulo-palestra">'.$palestra['titulo'].' - '.$palestra['palestrante'].'</div><br />';
+							}
+
+							?>
+						</div>
+						<input type="submit" value="Concluir inscrição" id="submit" />
+					</form>
+				</div>
+				<div class="clear"></div>
+			</div>
 		</div>
 		<div id="bottom">
 			&copy; 2012 Universidade Federal de São Carlos - Campus Sorocaba
