@@ -13,6 +13,21 @@
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['descricao']   = "A palestra será uma comparação entre os métodos ágeis Scrum e Kanban e quais são os cenários que levam um time adotar um outro framework de desenvolvimento.  Além dos conceitos sobre os métodos, exemplos práticos e vivenciados no dia-a-dia de empresas e times onde tive a oportunidade de aplicar esses frameworks.";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "";
+	
+	$palestras['Why-Know-Agile']['titulo']      = "Why Know Agile";
+	$palestras['Why-Know-Agile']['descricao']   = "";
+	$palestras['Why-Know-Agile']['palestrante'] = "Rafael Ozaki - Plataformatec";
+	$palestras['Why-Know-Agile']['biografia']   = "";
+	
+	$palestras['Os-Desafios-de-TI-no-E"-"commerce']['titulo']      = "Os desafios de TI no e-commerce";
+	$palestras['Os-Desafios-de-TI-no-E"-"commerce']['descricao']   = "Nosso objetivo é apresentar para este público de TI como está o mercado de e-commerce e os desafios encontrados neste negócio";
+	$palestras['Os-Desafios-de-TI-no-E"-"commerce']['palestrante'] = "Rafael Barini e Gustavo Augusto Silva Avelar - Nova Pontocom";
+	$palestras['Os-Desafios-de-TI-no-E"-"commerce']['biografia']   = " Rafael Barini : Gerente de projetos Bacharel em Ciencia da Computação, Unifran MBA em Tecnologia e Negócios na Internet – Ufscar/FAI; Gustavo Augusto Silva Avelar:Engenharia de Produção – UFMG; Diretor Adjunto de Marketing ";
+	
+	$palestras['A-Semente-não-entendida-de-todas-as-metodologias']['titulo']      = "A Semente não entendida de todas as metodologias";
+	$palestras['A-Semente-não-entendida-de-todas-as-metodologias']['descricao']   = "É muito fácil ficar confuso com tantas novas metodologias ou processos que existem no mercado de TI. Desde tradicionais que envolvem coisas como ISO ou CMMi até as ditas ’modernas’ e ’ágeis’ como Scrum, Extreme Programming, Crystal, e agora Lean e Kanban. Mais do que isso, muitas empresas estão realmente adotando e implementando essas metodologias, muitos estão treinando como implementá-las, muitos ainda tentando entender a diferença entre uma e outra. Porém, existem questões fundamentais que permeiam todas essas metodologias e que, surpreendentemente, parece que poucos estão dando real atenção e, justamente por isso, a maioria das implementações dita ’ágeis’ nas empresas está destinada a fracassar. Nesta palestra vamos tentar entender qual é o ponto fundamental que será a diferença entre sucesso e fracasso na implementações ágeis";
+	$palestras['A-Semente-não-entendida-de-todas-as-metodologias']['palestrante'] = "Fabio Akita";
+	$palestras['A-Semente-não-entendida-de-todas-as-metodologias']['biografia']   = "Fabio Akita é co-fundador da Codeminer 42. Junto com a Locaweb organiza a RubyConf Brazil desde 2008 e é evangelista de Ruby e boas práticas de projetos de software em geral desde 2006. Trabalhou em diversos mercados, desde pequenas agências e produtoras multimídia nos anos 90, startups da primeira geração em 2000, mercado corporativo SAP a partir de 2002 e software livre em geral a partir de 2006. Palestrou em diversos eventos de tecnologia no Brazil e no exterior incluindo RailsConf US e RubyKaigi no Japão";
 
 	$palestras['inovacao-centrada-no-usuario']['titulo']      = "Inovação centrada no usuário: criando os produtos que a sua vovó vai usar e você vai ficar feliz em comprar";
 	$palestras['inovacao-centrada-no-usuario']['descricao']   = "Com a necessidade de inovar se tornando cada vez mais urgente nas agendas das organizações, investir apenas na inovação de base tecnológica mostrou-se uma estratégia com limitações claras. Neste cenário, um paradigma de inovação cada vez mais popular é a chamada Inovação Centrada no Usuário. Nesta perspectiva, o processo de inovação se dá a partir da inspiração nos hábitos e contextos do consumidor. A Inovação Centrada no Usuário parte da premissa de que inovações devem ser geradas de forma a – baseadas no entendimento do usuário – solucionar problemas e atender demandas identificadas em um contexto social específico.";
@@ -25,9 +40,9 @@
 	$palestras['sexo-drogas-e-software-livre']['biografia']   = "Alexandre Oliva é ativista pela liberdade de software e pelo software livre; conselheiro da FSFLA, Fundação Software Livre América Latina; mantenedor do GNU Linux-libre, uma versão do núcleo Linux sem as armadilhas privativas de liberdade presentes na versão original; co-mantenedor da GNU libc e de porções do GCC e GNU binutils; co-autor do livro A Revolução do Software Livre, publicado pela Comunidade Sol; colunista da Revista Espírito Livre; engenheiro de compiladores livres na Red Hat Brasil; engenheiro de computação e mestre em ciências da computação formado na Unicamp.";
 
 	$palestras['comecando-com-nodejs']['titulo']      = "Começando com Node.JS";
-	$palestras['comecando-com-nodejs']['descricao']   = "Veja como desenvolver aplicativos realtime usando Node.js nesta introdução prática. Você verá alguns conceitos de JavaScript, além de um tutorial prático de Node.js";
-	$palestras['comecando-com-nodejs']['palestrante'] = "Nando";
-	$palestras['comecando-com-nodejs']['biografia']   = "";
+	$palestras['comecando-com-nodejs']['descricao']   = "Veja como desenvolver aplicativos realtime usando Node.js nesta introdução prática. Você verá alguns conceitos de JavaScript, além de um tutorial prático de Node.js. Conheça mais sobre o palestrante e os seus projetos em http://nandovieira.com.br/";
+	$palestras['comecando-com-nodejs']['palestrante'] = "Nando Vieira";
+	$palestras['comecando-com-nodejs']['biografia']   = "Conheça mais sobre o Nando e os seus projetos em http://nandovieira.com.br/";
 
 	$palestras['projeto-domus']['titulo']      = "Projeto DOMUS: Eficiência Energética em Edificações";
 	$palestras['projeto-domus']['descricao']   = "O tema central da palestra é o projeto Domus, software para simulação termoenergética de edificações desenvolvido em ambiente acadêmico com o apoio do CNPq e da Eletrobras, e que tem como objetivo proporcionar a otimização do projeto de edificações em termos da eficiência energética. O software possibilita o estudo das trocas higrotérmicas (temperatura e umidade) através das alvenarias do edifício, fato que os outros programas não consideram e é de fundamental importância no clima brasileiro.  O Domus simula ainda a classificação do edifício quanto ao nível de eficiência energética visando à etiquetagem, segundo o Programa Brasileiro de Etiquetagem de Edifícios. Nesta palestra, serão apresentadas características técnicas do desenvolvimento do software e ao final será feita uma demonstração por meio de uma simulação.";
