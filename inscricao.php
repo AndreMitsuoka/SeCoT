@@ -176,6 +176,7 @@
 					</form>
 				</div>
 				<div class="clear"></div>
+				<br />
 			</div>
 		</div>
 		<div id="bottom">
