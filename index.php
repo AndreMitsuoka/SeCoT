@@ -155,7 +155,7 @@
 				<div class="side">
 					<div class="patrocinadores">Apoio</div>
 					<a href="http://www.ufscar.br"><img src="<?php echo $urlbase; ?>/img/patrocinadores/22581_logoufscar.jpg" class="patrocinio" /></a>
-					<!--- Logo errado! <a href="http://plataformatec.com.br/"><img src="http://plataformatec.com.br/images/logo-home.png" class="patrocinio" /></a> -->
+					<!--- Trocar logo <a href="http://plataformatec.com.br/"><img src="http://plataformatec.com.br/images/logo-home.png" class="patrocinio" /></a> -->
 					<a href="http://suanova.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/size_590_novapontocom.jpg" class="patrocinio" /></a>
 					<a href="http://novatec.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_novatec.gif" class="patrocinio" /></a>
 					<a href="http://www.apontador.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/93746v2-max-250x250.png" class="patrocinio" /></a>
