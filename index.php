@@ -93,8 +93,8 @@
 			.palestra {
 				color: #000;
 				display: inline-block;
-				font: 20px/30px 'RobotoLight', Arial, sans-serif;
-				margin: 10px 30px;
+				font: 16px/24px 'RobotoLight', Arial, sans-serif;
+				margin: 3px 30px;
 				text-decoration: none;
 			}
 
@@ -124,7 +124,7 @@
 						foreach ($palestras as $key=>$palestra) {
 							echo '<a href="'.$urlbase.'/agenda/'.$key.'" class="palestra" >';
 							echo $palestra['titulo'].' - '.$palestra['palestrante'];
-							echo '</a><br />';
+							echo '</a>';
 						}
 					?>
 					<br /><br />
