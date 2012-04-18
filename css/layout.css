@@ -15,7 +15,7 @@
 
 	body {
 		background-color: #efefef;
-		background-image: url("/img/body.gif");
+		background-image: url("/secot/img/body.gif");
 	}
 
 	#w {
@@ -44,7 +44,7 @@
 		margin-left: -480px;
 		position: absolute;
 		vertical-align: middle;
-		z-index: 9999;
+		z-index: 1000;
 	}
 
 	#header span {
@@ -56,6 +56,7 @@
 		text-align: center;
 		top: 40px;
 		vertical-align: middle;
+		z-index: 2000;
 	}
 
 	#header #menu {
@@ -104,7 +105,7 @@
 	}
 
 	#bottom {
-		background: #666 url("/img/bottom.png");
+		background: #666 url("/secot/img/bottom.png");
 		color: white;
 		height: 50px;
 		line-height: 50px;

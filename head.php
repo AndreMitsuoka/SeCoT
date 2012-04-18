@@ -1,3 +1,4 @@
 <?php
-	$urlbase = "/secot";
+	//$urlbase = "/secot";
+	$urlbase = "";
 ?>
