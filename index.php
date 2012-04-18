@@ -57,7 +57,7 @@
 
 			#data,
 			#inscricao,
-			#patrocinadores {
+			.patrocinadores {
 				color: #FFF;
 				font: 25px/60px 'RobotoLight', Arial, sans-serif;
 				height: 60px;
@@ -81,7 +81,7 @@
 				width: 180px;
 			}
 
-			#patrocinadores {
+			.patrocinadores {
 				background-color: #0e5b8c;
 			}
 
@@ -148,17 +148,19 @@
 				</div>
 				-->
 				<div class="side">
-					<div id="patrocinadores">Patrocinadores</div>
-					<a href="http://www.ufscar.br"><img src="http://www2.ufscar.br/uploads/22581_logoufscar.jpg" class="patrocinio" /></a>
-					<a href="http://www.yazigi.com.br/"><img src="http://desconto.yazigi.com.br/assets/yazigi/logo-e6c24a57d4ab65cdc7cb04390c44098a.png" class="patrocinio" /></a>
-					<a href="http://plataformatec.com.br/"><img src="http://plataformatec.com.br/images/logo-home.png" class="patrocinio" /></a>
-					<a href="http://suanova.com/"><img src="http://assets2.exame.abril.com.br/assets/pictures/26871/size_590_novapontocom.jpg?1301496134" class="patrocinio" /></a>
-					<a href="http://www.claro.com.br/"><img src="http://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Claro.svg/200px-Claro.svg.png" class="patrocinio" /></a>
-					<a href="http://novatec.com.br/"><img src="http://novatec.com.br/figuras/logo_novatec.gif" class="patrocinio" /></a>
-					<a href="http://www.apontador.com.br/"><img src="http://www.crunchbase.com/assets/images/resized/0009/3746/93746v2-max-250x250.png" class="patrocinio" /></a>
-					<a href="http://www.codeminer42.com/"><img src="http://www.codeminer42.com/assets/codeminer42.png" class="patrocinio" /></a>
-					<a href="http://www.cesar.org.br/site/"><img src="http://www.cesar.org.br/site/wp-content/themes/cesar/images/logo.png" class="patrocinio" /></a>
-					<a href="http://www.everis.com/brazil/pt-BR/home/Paginas/home.aspx"><img src="http://www.everis.com/brazil/Style%20Library/Images/General/logo_everis.png" class="patrocinio" /></a>
+					<div class="patrocinadores">Patrocinadores</div>
+					<a href="http://www.yazigi.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-e6c24a57d4ab65cdc7cb04390c44098a.png" class="patrocinio" /></a>
+					<a href="http://www.everis.com/brazil/pt-BR/home/Paginas/home.aspx"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_everis.png" class="patrocinio" /></a>
+				</div>
+				<div class="side">
+					<div class="patrocinadores">Apoio</div>
+					<a href="http://www.ufscar.br"><img src="<?php echo $urlbase; ?>/img/patrocinadores/22581_logoufscar.jpg" class="patrocinio" /></a>
+					<!--- Logo errado! <a href="http://plataformatec.com.br/"><img src="http://plataformatec.com.br/images/logo-home.png" class="patrocinio" /></a> -->
+					<a href="http://suanova.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/size_590_novapontocom.jpg" class="patrocinio" /></a>
+					<a href="http://novatec.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_novatec.gif" class="patrocinio" /></a>
+					<a href="http://www.apontador.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/93746v2-max-250x250.png" class="patrocinio" /></a>
+					<a href="http://www.codeminer42.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/codeminer42.png" class="patrocinio" /></a>
+					<a href="http://www.cesar.org.br/site/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo.png" class="patrocinio" /></a>
 				</div>
 				<div class="clear"></div>
 			</div>
