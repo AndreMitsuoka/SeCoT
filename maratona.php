@@ -41,6 +41,10 @@
 				width: 890px;
 			}
 
+			.no-margin {
+				margin: 0px 10px 3px 30px !important;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -50,7 +54,17 @@
 			</div>
 			<div id="middle">
 				<div id="content">
-					<span class="titulo">Maratona de Programação</span>
+					<span class="titulo">Mini-Maratona de Programação</span>
+					<p>A 2ª Mini Maratona de Programação da UFSCar Sorocaba será realizada nos moldes da famosa Maratona de Programação da ACM-SBC (http://maratona.ime.usp.br/), onde grupos de 3 estudantes enfrentam uma sequência de problemas desafiantes de programação.</p>
+					<p>Incentivamos a participação de todos que gostem de programação! Esta é uma excelente oportunidade para conhecer o estilo dos problemas da maratona, o ambiente de competição e participar de uma atividade divertida que permite o aprendizado de novas habilidades e que conta créditos de atividades complementares.</p>
+
+					<p>Sobre a Mini Maratona:</p>
+					<p class="no-margin">Times: 3 alunos de qualquer curso da UFSCar Sorocaba.</p>
+					<p class="no-margin">Incrições: Enviar nome do time, lista de participantes com nome e RA e indicar pessoa de contato do time por e-mail até dia 27/4 para tiemi@ufscar.br. As vagas são limitadas, a seleção dos times se dará por ordem de inscrição.</p>
+					<p class="no-margin">Data: 11/5</p>
+					<p class="no-margin">Hora: Aquecimento da 10h00 as 11h30. Competição das 13h30 as 16h30.</p>
+					<p class="no-margin">Local: UFSCar Sorocaba</p>
+					<br /><br />
 				</div>
 				<div class="clear"></div>
 			</div>
