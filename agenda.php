@@ -238,18 +238,18 @@
 						<div class="break">
 							Horário Livre
 						</div>
-						<a href="#" class="palestra-1">
-							<span class="titulo-palestra">Why Agile??</span>
+						<a href="<?php echo $urlbase; ?>/agenda/why-know-agile" class="palestra-1">
+							<span class="titulo-palestra">Why Know Agile</span>
 							<!-- <span class="palestrante">Rafael Ozaki - Plataformatec</span> -->
 						</a>
-						<a href="#" class="palestra-3">
-							<span class="titulo-palestra">Tema a confirmar</span><br />
+						<a href="<?php echo $urlbase; ?>/agenda/a-semente-nao-entendida-de-todas-as-metodologias" class="palestra-3">
+							<span class="titulo-palestra">A Semente não entendida de todas as metodologias</span><br />
 							<span class="palestrante">Fábio Akita</span>
 						</a>
 						<div class="break">
 							Coffee Break
 						</div>
-						<a href="#" class="palestra-1">
+						<a href="<?php echo $urlbase; ?>/agenda/os-desafios-de-ti-no-e-commerce" class="palestra-1">
 							<span class="titulo-palestra">Os desafios de TI no e-commerce</span>
 							<!-- <span class="palestrante">Rafael Berini e Gustavo Avelar - NovaPontocom</span> -->
 						</a>

@@ -14,20 +14,20 @@
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "";
 	
-	$palestras['Why-Know-Agile']['titulo']      = "Why Know Agile";
-	$palestras['Why-Know-Agile']['descricao']   = "";
-	$palestras['Why-Know-Agile']['palestrante'] = "Rafael Ozaki - Plataformatec";
-	$palestras['Why-Know-Agile']['biografia']   = "";
+	$palestras['why-know-agile']['titulo']      = "Why Know Agile";
+	$palestras['why-know-agile']['descricao']   = "";
+	$palestras['why-know-agile']['palestrante'] = "Rafael Ozaki - Plataformatec";
+	$palestras['why-know-agile']['biografia']   = "";
 	
-	$palestras['Os-Desafios-de-TI-no-E"-"commerce']['titulo']      = "Os desafios de TI no e-commerce";
-	$palestras['Os-Desafios-de-TI-no-E"-"commerce']['descricao']   = "Nosso objetivo é apresentar para este público de TI como está o mercado de e-commerce e os desafios encontrados neste negócio";
-	$palestras['Os-Desafios-de-TI-no-E"-"commerce']['palestrante'] = "Rafael Barini e Gustavo Augusto Silva Avelar - Nova Pontocom";
-	$palestras['Os-Desafios-de-TI-no-E"-"commerce']['biografia']   = " Rafael Barini : Gerente de projetos Bacharel em Ciencia da Computação, Unifran MBA em Tecnologia e Negócios na Internet – Ufscar/FAI; Gustavo Augusto Silva Avelar:Engenharia de Produção – UFMG; Diretor Adjunto de Marketing ";
+	$palestras['os-desafios-de-ti-no-e-commerce']['titulo']      = "Os desafios de TI no e-commerce";
+	$palestras['os-desafios-de-ti-no-e-commerce']['descricao']   = "Nosso objetivo é apresentar para este público de TI como está o mercado de e-commerce e os desafios encontrados neste negócio";
+	$palestras['os-desafios-de-ti-no-e-commerce']['palestrante'] = "Rafael Barini e Gustavo Augusto Silva Avelar - Nova Pontocom";
+	$palestras['os-desafios-de-ti-no-e-commerce']['biografia']   = " Rafael Barini : Gerente de projetos Bacharel em Ciencia da Computação, Unifran MBA em Tecnologia e Negócios na Internet – Ufscar/FAI; Gustavo Augusto Silva Avelar:Engenharia de Produção – UFMG; Diretor Adjunto de Marketing ";
 	
-	$palestras['A-Semente-não-entendida-de-todas-as-metodologias']['titulo']      = "A Semente não entendida de todas as metodologias";
-	$palestras['A-Semente-não-entendida-de-todas-as-metodologias']['descricao']   = "É muito fácil ficar confuso com tantas novas metodologias ou processos que existem no mercado de TI. Desde tradicionais que envolvem coisas como ISO ou CMMi até as ditas ’modernas’ e ’ágeis’ como Scrum, Extreme Programming, Crystal, e agora Lean e Kanban. Mais do que isso, muitas empresas estão realmente adotando e implementando essas metodologias, muitos estão treinando como implementá-las, muitos ainda tentando entender a diferença entre uma e outra. Porém, existem questões fundamentais que permeiam todas essas metodologias e que, surpreendentemente, parece que poucos estão dando real atenção e, justamente por isso, a maioria das implementações dita ’ágeis’ nas empresas está destinada a fracassar. Nesta palestra vamos tentar entender qual é o ponto fundamental que será a diferença entre sucesso e fracasso na implementações ágeis";
-	$palestras['A-Semente-não-entendida-de-todas-as-metodologias']['palestrante'] = "Fabio Akita";
-	$palestras['A-Semente-não-entendida-de-todas-as-metodologias']['biografia']   = "Fabio Akita é co-fundador da Codeminer 42. Junto com a Locaweb organiza a RubyConf Brazil desde 2008 e é evangelista de Ruby e boas práticas de projetos de software em geral desde 2006. Trabalhou em diversos mercados, desde pequenas agências e produtoras multimídia nos anos 90, startups da primeira geração em 2000, mercado corporativo SAP a partir de 2002 e software livre em geral a partir de 2006. Palestrou em diversos eventos de tecnologia no Brazil e no exterior incluindo RailsConf US e RubyKaigi no Japão";
+	$palestras['a-semente-nao-entendida-de-todas-as-metodologias']['titulo']      = "A Semente não entendida de todas as metodologias";
+	$palestras['a-semente-nao-entendida-de-todas-as-metodologias']['descricao']   = "É muito fácil ficar confuso com tantas novas metodologias ou processos que existem no mercado de TI. Desde tradicionais que envolvem coisas como ISO ou CMMi até as ditas ’modernas’ e ’ágeis’ como Scrum, Extreme Programming, Crystal, e agora Lean e Kanban. Mais do que isso, muitas empresas estão realmente adotando e implementando essas metodologias, muitos estão treinando como implementá-las, muitos ainda tentando entender a diferença entre uma e outra. Porém, existem questões fundamentais que permeiam todas essas metodologias e que, surpreendentemente, parece que poucos estão dando real atenção e, justamente por isso, a maioria das implementações dita ’ágeis’ nas empresas está destinada a fracassar. Nesta palestra vamos tentar entender qual é o ponto fundamental que será a diferença entre sucesso e fracasso na implementações ágeis";
+	$palestras['a-semente-nao-entendida-de-todas-as-metodologias']['palestrante'] = "Fabio Akita";
+	$palestras['a-semente-nao-entendida-de-todas-as-metodologias']['biografia']   = "Fabio Akita é co-fundador da Codeminer 42. Junto com a Locaweb organiza a RubyConf Brazil desde 2008 e é evangelista de Ruby e boas práticas de projetos de software em geral desde 2006. Trabalhou em diversos mercados, desde pequenas agências e produtoras multimídia nos anos 90, startups da primeira geração em 2000, mercado corporativo SAP a partir de 2002 e software livre em geral a partir de 2006. Palestrou em diversos eventos de tecnologia no Brazil e no exterior incluindo RailsConf US e RubyKaigi no Japão";
 
 	$palestras['inovacao-centrada-no-usuario']['titulo']      = "Inovação centrada no usuário: criando os produtos que a sua vovó vai usar e você vai ficar feliz em comprar";
 	$palestras['inovacao-centrada-no-usuario']['descricao']   = "Com a necessidade de inovar se tornando cada vez mais urgente nas agendas das organizações, investir apenas na inovação de base tecnológica mostrou-se uma estratégia com limitações claras. Neste cenário, um paradigma de inovação cada vez mais popular é a chamada Inovação Centrada no Usuário. Nesta perspectiva, o processo de inovação se dá a partir da inspiração nos hábitos e contextos do consumidor. A Inovação Centrada no Usuário parte da premissa de que inovações devem ser geradas de forma a – baseadas no entendimento do usuário – solucionar problemas e atender demandas identificadas em um contexto social específico.";
