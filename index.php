@@ -159,12 +159,11 @@
 					<a href="http://www.yazigi.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-e6c24a57d4ab65cdc7cb04390c44098a.png" class="patrocinio" /></a>
 					<a href="http://www.uol.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/uol-o-melhor-conteudo.png" class="patrocinio" /></a>
 					<a href="http://www.padtec.com.br/indexbr.php"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_padtec.jpg" class="patrocinio" /></a>
-					<!-- <a href="http://www.everis.com/brazil/pt-BR/home/Paginas/home.aspx"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_everis.png" class="patrocinio" /></a> -->
+					<a href="http://www.everis.com/brazil/pt-BR/home/Paginas/home.aspx"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_everis.png" class="patrocinio" /></a>
 				</div>
 				<div class="side">
 					<div class="patrocinadores">Apoio</div>
 					<a href="http://www.ufscar.br"><img src="<?php echo $urlbase; ?>/img/patrocinadores/22581_logoufscar.jpg" class="apoio" /></a>
-					<!--- Trocar logo <a href="http://plataformatec.com.br/"><img src="http://plataformatec.com.br/images/logo-home.png" class="apoio" /></a> -->
 					<a href="http://suanova.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/size_590_novapontocom.jpg" class="apoio" /></a>
 					<a href="http://novatec.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_novatec.gif" class="apoio" /></a>
 					<a href="http://www.apontador.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/93746v2-max-250x250.png" class="apoio" /></a>
