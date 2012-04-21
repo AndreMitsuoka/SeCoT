@@ -265,14 +265,14 @@
 							Horário Livre
 						</div>
 						<a href="#" class="palestra">
-							<span class="titulo-palestra">Tema a confirmar</span><br />
+							<span class="titulo-palestra">Coding Dojo</span><br />
 							<span class="palestrante">Eher - Apontador</span>
 						</a>
 						<div class="break">
 							Coffee Break
 						</div>
 						<a href="#" class="palestra-3">
-							<span class="titulo-palestra">Dojo - Apontador / UOL</span><br />
+							<span class="titulo-palestra">ThoughtWorks</span><br />
 							<span class="palestrante"></span>
 						</a>
 					</div>
@@ -294,7 +294,7 @@
 							Coffee Break
 						</div>
 						<a href="#" class="palestra-3">
-							<span class="titulo-palestra">Tema a confirmar</span><br />
+							<span class="titulo-palestra">WiFi Offload – Uma alternativa para desafogar as redes de dados móveis</span><br />
 							<span class="palestrante">André - Claro</span>
 						</a>
 					</div>

@@ -11,7 +11,7 @@
 
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['titulo']      = "Scrum ou Kanban, qual você usaria?";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['descricao']   = "A palestra será uma comparação entre os métodos ágeis Scrum e Kanban e quais são os cenários que levam um time adotar um outro framework de desenvolvimento.  Além dos conceitos sobre os métodos, exemplos práticos e vivenciados no dia-a-dia de empresas e times onde tive a oportunidade de aplicar esses frameworks.";
-	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César";
+	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César - UOL";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "";
 	
 	$palestras['why-know-agile']['titulo']      = "Why Know Agile";
@@ -41,7 +41,7 @@
 
 	$palestras['comecando-com-nodejs']['titulo']      = "Começando com Node.JS";
 	$palestras['comecando-com-nodejs']['descricao']   = "Veja como desenvolver aplicativos realtime usando Node.js nesta introdução prática. Você verá alguns conceitos de JavaScript, além de um tutorial prático de Node.js. Conheça mais sobre o palestrante e os seus projetos em http://nandovieira.com.br/";
-	$palestras['comecando-com-nodejs']['palestrante'] = "Nando Vieira";
+	$palestras['comecando-com-nodejs']['palestrante'] = "Nando Vieira - CodePlane, HowToCode, Hellobits";
 	$palestras['comecando-com-nodejs']['biografia']   = "Conheça mais sobre o Nando e os seus projetos em http://nandovieira.com.br/";
 
 	$palestras['projeto-domus']['titulo']      = "Projeto DOMUS: Eficiência Energética em Edificações";
@@ -53,5 +53,10 @@
 	$palestras['recuperacao-de-informacao-visual']['descricao']   = "Avanços em técnicas de aquisição, compressão e transmissão de dados têm permitido a criação de bibliotecas de mídia digital cada vez maiores. Na medida em que cresce o volume de imagens e vídeos nessas coleções, cresce também o interesse em sistemas capazes de gerenciá-los de maneira eficiente. Essa dificuldade vem sendo resolvida por meio de sistemas capazes de abstrair representações semânticas de alto nível a partir das informações de baixo nível desses dados. Devido à complexidade desse material, existem quatro desafios principais na construção tais sistemas: (1) implementar algoritmos para codificar as propriedades de baixo nível de imagens e vídeos em vetores de características; (2) desenvolver uma medida de similaridade para comparar esses dados a partir de seus vetores; (3) responder rapidamente a consultas por similaridade sobre, potencialmente, milhões de entradas; e (4) apresentar os resultados de forma amigável ao usuário. Inúmeras técnicas têm sido propostas para atender a esses requisitos. Todavia, apesar de todos os esforços o gerenciamento de dados mutimídia ainda está em seu estado preliminar. Este seminário apresenta uma visão geral de diferentes métodos propostos para atender aos quesitos supracitados, analisando as suas contribuições teóricas e empíricas para a recuperação de informação visual.";
 	$palestras['recuperacao-de-informacao-visual']['palestrante'] = "Dr. Jurandy G. Almeida Jr";
 	$palestras['recuperacao-de-informacao-visual']['biografia']   = "Jurandy Almeida possui graduação em Ciência da Computação (UNESP, 2004), mestrado (2007) e doutorado (2011) em Ciência da Computação (UNICAMP), com estágio doutoral no Dept. of Computing Science, University of Alberta em Edmonton, Canadá. Atualmente, é pesquisador colaborador e realiza estágio pós-doutoral no Instituto de Computação da UNICAMP. Possui trabalhos publicados em renomadas revistas e conferências nacionais e internacionais. Realiza pesquisa nas áreas de Banco de Dados, Processamento de Imagens e Visão Computacional, atuando, principalmente, em temas relacionados à Recuperação de Imagens e Vídeos.";
+
+	$palestras['coding-dojo']['titulo']      = "Coding Dojo";
+	$palestras['coding-dojo']['descricao']   = "Um Coding Dojo é um encontro onde um grupo de programadores de vários níveis de conhecimento se reúne para treinar, em um ambiente inclusivo e colaborativo boas técnicas e metodologias de desenvolvimento de software através da solução de um pequeno desafio de programação.";
+	$palestras['coding-dojo']['palestrante'] = "Eher - Apontador";
+	$palestras['coding-dojo']['biografia']   = "";
 
 ?>
