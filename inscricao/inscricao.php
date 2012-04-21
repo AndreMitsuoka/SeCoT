@@ -1,15 +1,12 @@
 <?php
-	require "head.php";
-	$page = "inscricao";
-	require "palestras.db.php";
+	require "connect.php";
 ?>
 <!doctype html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>IV SeCoT</title>
+		<title>IV SeCoT - Inscrição</title>
 		<link type="text/css" rel="stylesheet" href="css/fonts.css" />
-		<link type="text/css" rel="stylesheet" href="css/layout.css" />
 		<style type="text/css">
 
 			#content {
