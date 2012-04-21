@@ -111,6 +111,13 @@
 				text-decoration: underline;	
 			}
 
+			.realizacao {
+				display: inline-block;
+				margin: 30px 90px;
+				max-height: 110px;
+				max-width: 220px;
+			}
+
 		</style>
 		<script type="text/javascript" src="<?php echo $urlbase; ?>/js/countdown.js"></script>
 	</head>
@@ -142,6 +149,11 @@
 					<span class="titulo">Fotos do evento:</span>
 					<p>Em breve...</p>
 				</div>
+				<div class="content">
+					<span class="titulo">Realização:</span>
+					<a href="http://i9bits.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-i9b!.png" class="realizacao" /></a>
+					<a href="http://ufscar-caccs.blogspot.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/caccs2.1.jpg" class="realizacao" /></a>
+				</div>
 				<div id="d" class="side">
 					<div id="data">07 à 12 de Maio</div>
 					<canvas id="countdown" width="260" height="100"></canvas>
@@ -170,7 +182,7 @@
 					<a href="http://www.codeminer42.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/codeminer42.png" class="apoio" /></a>
 					<a href="http://www.cesar.org.br/site/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo.png" class="apoio" /></a>
 					<a href="http://plataformatec.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-home.png" class="apoio" /></a>
-					
+					<a href="http://www.atleticacomputacao.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/atletica.jpg" class="apoio" /></a>
 				</div>
 				<div class="clear"></div>
 			</div>
