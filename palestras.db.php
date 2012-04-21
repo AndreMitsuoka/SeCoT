@@ -11,7 +11,7 @@
 
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['titulo']      = "Scrum ou Kanban, qual você usaria?";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['descricao']   = "A palestra será uma comparação entre os métodos ágeis Scrum e Kanban e quais são os cenários que levam um time adotar um outro framework de desenvolvimento.  Além dos conceitos sobre os métodos, exemplos práticos e vivenciados no dia-a-dia de empresas e times onde tive a oportunidade de aplicar esses frameworks.";
-	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César - UOL";
+	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César Augusto Felix Leite - UOL";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "";
 	
 	$palestras['why-know-agile']['titulo']      = "Why Know Agile";

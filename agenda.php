@@ -211,7 +211,7 @@
 						</a>
 						<a href="<?php echo $urlbase; ?>/agenda/scrum-ou-kanban-qual-voce-usaria" class="palestra">
 							<span class="titulo-palestra">Scrum ou Kanban, qual você usaria?</span><br/>
-							<span class="palestrante">César - UOL</span>
+							<span class="palestrante">César Augusto Felix Leite - UOL</span>
 						</a>
 						<div class="break">
 							Horário Livre
