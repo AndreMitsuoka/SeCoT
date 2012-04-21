@@ -9,17 +9,20 @@
 		<link type="text/css" rel="stylesheet" href="css/fonts.css" />
 		<style type="text/css">
 
-			#content {
-				background-color: #FFF;
-				border-radius: 4px;
-				float: left;
-				margin: 10px;
+			* {
+				border: 0;
+				margin: 0;
+				padding: 0;
+			}
+
+			html, body {
 				overflow: hidden;
+			}
+
+			#content-inscricao {
+				background-color: #FFF;
+				margin: 0 auto;
 				width: 950px;
-				-moz-border-radius: 4px;
-				-moz-box-shadow: 0 0 6px #c6c6c6;
-				-webkit-border-radius: 4px;
-				-webkit-box-shadow: 0 0 6px #c6c6c6;
 			}
 			
 			.title {
@@ -144,40 +147,40 @@
 		</script>
 	</head>
 	<body>
-		<div id="w">
-			<div id="top">
-				<?php include "header.php" ?>
-			</div>
-			<div id="middle">
-				<div id="content">
-					<div class="title">Inscrição</div>
-					<form>
-						<div id="info">
-							<span>Dados Pessoais:</span></br></br>
-							<input type="text" id="nome"		placeholder="Nome" 			/><br />
-							<input type="text" id="email"		placeholder="Email" 		/><br />
-							<input type="text" id="rg"			placeholder="RG" 			/><br />
-							<input type="text" id="instituicao" placeholder="Instituição" 	/><br />
-						</div>
-						<div id="palestras">
-							<span>Palestras escolhidas:</span></br></br>
-							<?php
-
-							foreach ($palestras as $key=>$palestra) {
-								echo '<input type="checkbox" value="'.$key.'" /><div class="titulo-palestra">'.$palestra['titulo'].' - '.$palestra['palestrante'].'</div><br />';
-							}
-
-							?>
-						</div>
-						<input type="submit" value="Concluir inscrição" id="submit" />
-					</form>
+		<div id="content-inscricao">
+			<div class="title">Inscrição</div>
+			<form>
+				<div id="info">
+					<span>Dados Pessoais:</span></br></br>
+					<input type="text" id="nome"		placeholder="Nome" 			/><br />
+					<input type="text" id="email"		placeholder="Email" 		/><br />
+					<input type="text" id="rg"			placeholder="RG" 			/><br />
+					<input type="text" id="instituicao" placeholder="Instituição" 	/><br />
 				</div>
-				<div class="clear"></div>
-				<br />
-			</div>
-		</div>
-		<div id="bottom">
-			&copy; 2012 Universidade Federal de São Carlos - Campus Sorocaba
+				<div id="palestras">
+					<span>Palestras escolhidas:</span></br></br>
+					<?php
+
+					$query = sprintf("SELECT * FROM palestras");
+
+					$result = mysql_query($query);
+
+					if (!$result) {
+					    $message  = 'Invalid query: ' . mysql_error() . "\n";
+					    $message .= 'Whole query: ' . $query;
+					    die($message);
+					}
+
+					while ($row = mysql_fetch_assoc($result)) {
+					    echo '<input type="checkbox" value="'.$row['id'].'" /><div class="titulo-palestra">'.$row['tema'].' - '.$row['palestrante'].'</div><br />';
+					}
+
+					mysql_free_result($result);
+
+					?>
+				</div>
+				<input type="submit" value="Concluir inscrição" id="submit" />
+			</form>
 		</div>
 	</body>
 </html>
