@@ -257,8 +257,8 @@
 					<div class="columns">
 						<div class="header">Quarta<br/>(09/05)</div>
 						<div class="placeholder-palestra"></div>
-						<a href="<?php echo $urlbase; ?>/agenda/sexo-drogas-e-software-livre" class="palestra">
-							<span class="titulo-palestra">Sexo, Drogas e Software Livre</span><br />
+						<a href="<?php echo $urlbase; ?>/agenda/sexo-drogas-e-software" class="palestra">
+							<span class="titulo-palestra">Sexo, Drogas e Software</span><br />
 							<span class="palestrante">Alexandre Oliva</span>
 						</a>
 						<div class="break">
