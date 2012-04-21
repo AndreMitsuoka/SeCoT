@@ -182,6 +182,7 @@
 					<a href="http://www.codeminer42.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/codeminer42.png" class="apoio" /></a>
 					<a href="http://www.cesar.org.br/site/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo.png" class="apoio" /></a>
 					<a href="http://plataformatec.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-home.png" class="apoio" /></a>
+					<a href="http://www.thoughtworks.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/thoughtworks.jpg" class="apoio" /></a>
 					<a href="http://www.atleticacomputacao.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/atletica.jpg" class="apoio" /></a>
 				</div>
 				<div class="clear"></div>
