@@ -1,5 +1,5 @@
 .htaccess
 connect.php
 log
-inscricao/connect.php
-inscricao/email.php
+inscricao_i9bits/connect.php
+inscricao_i9bits/email.php
