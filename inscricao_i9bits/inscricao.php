@@ -59,7 +59,7 @@
 			}
 
 			html, body {
-				height: 700px;
+				height: 707px;
 				overflow: hidden;
 			}
 
