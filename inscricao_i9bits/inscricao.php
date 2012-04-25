@@ -1,48 +1,5 @@
 <?php
 	require "connect.php";
-
-	//require "email.php";
-
-	/*
-
-	require_once('class.phpmailer.php');
-
-	$ToEmail = "mccraveiro@gmail.com";
-	$ToName = "Mateus";
-
-	$Body = "Inscrição confirmada";
-	$Content = $Body;
-			
-			$mail = new PHPMailer();
-			$mail->IsSMTP();  
-			$mail->CharSet = "UTF-8";  
-			
-			$mail->SMTPAuth   = true;  
-			$mail->SMTPSecure = "tls";
-			$mail->SMTPDebug  = 2;
-			$mail->Port       = 587;
-			$mail->Host       = "smtp.gmail.com";
-			                           
-			$mail->isHtml();     
-			$mail->Username = "secot2012@gmail.com";
-			$mail->Password = "@S3c0t2012";
-			$mail->FromName = "IV Semana da Computação e Tecnologia";
-			$mail->From     = "secot2012@gmail.com";
-			$mail->Subject  = "Inscrição Confirmada";
-			$mail->AltBody  = $Content; 	
-			$mail->Body     = $Body;
-			
-			$mail->AddAddress($ToEmail, $ToName);
-			
-			if(!$mail->Send()){		
-				return false;
-			} else {				
-				return true;		
-			}
-
-	//Email::Write("Mateus", "mccraveiro@gmail.com", $body);
-
-	*/
 ?>
 <!doctype html>
 <html>
@@ -210,7 +167,9 @@
 					<input type="text" id="instituicao" name="instituicao"		placeholder="Instituição" 	/><br />
 
 					<div class="warning">
-						As palestras, workshops e mini-cursos têm limite de participantes e podem estar desabilitadas caso tenham atingido esse limite.
+						A inscrição só será validada mediante o pagamento da taxa de inscrição.<br />
+						As palestras, workshops e mini-cursos têm limite de participantes e podem estar desabilitadas caso tenham atingido esse limite.<br />
+						A emissão do certificado só será realizada caso você tenha comparecido em no mínimo 75% das palestras selecionadas.
 					</div>
 				</div>
 				<div id="palestras">

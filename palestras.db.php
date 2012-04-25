@@ -33,7 +33,7 @@
 	
 	
 	$palestras['why-know-agile']['titulo']      = "Why Know Agile";
-	$palestras['why-know-agile']['descricao']   = "O que significa ser ágil? Muito se ouve sobre o uso de metodologias ágeis para o desenvolvimento de software, mas o que isso significa? Quais os princípios que norteiam o desenvolvimento ágil? Como diferem das chamadas "metodologias tradicionais"? Como isso aumenta nossas chances de sucesso no desenvolvimento de software? Ao longo da palestra, apresentaremos a visão da Plataformatec em relação a estes pontos e porque apostamos que este tipo de abordagem faz sentido para o desenvolvimento de aplicativos voltados à internet.";
+	$palestras['why-know-agile']['descricao']   = "O que significa ser ágil? Muito se ouve sobre o uso de metodologias ágeis para o desenvolvimento de software, mas o que isso significa? Quais os princípios que norteiam o desenvolvimento ágil? Como diferem das chamadas \"metodologias tradicionais\"? Como isso aumenta nossas chances de sucesso no desenvolvimento de software? Ao longo da palestra, apresentaremos a visão da Plataformatec em relação a estes pontos e porque apostamos que este tipo de abordagem faz sentido para o desenvolvimento de aplicativos voltados à internet.";
 	$palestras['why-know-agile']['palestrante'] = "Rafael Ozaki - Plataformatec";
 	$palestras['why-know-agile']['biografia']   = "Rafael Ozaki é Engenheiro Naval, formado pela Escola Politécnica da USP. Após trabalhar por 3 anos com consultoria estratégica, juntou-se em 2010 à Plataformatec, onde tem atuado no desenvolvimento de novos negócios e junto aos times de desenvolvimento em projetos voltados à internet.";
 	
