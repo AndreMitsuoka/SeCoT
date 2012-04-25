@@ -11,7 +11,7 @@
 		<link type="text/css" rel="stylesheet" href="<?php echo $urlbase; ?>/css/layout.css" />
 		<style type="text/css">
 
-			#content {
+			.content {
 				background-color: #FFF;
 				border-radius: 4px;
 				float: left;
@@ -112,7 +112,8 @@
 				height: 280px !important;
 			}
 
-			.placeholder-palestra {
+			.placeholder-palestra,
+			.placeholder-palestra-2 {
 				border-right: 1px solid #dedede;
 				border-bottom: 1px solid #dedede;
 				display: block;
@@ -122,6 +123,10 @@
 				-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 				-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 				box-sizing: border-box;         /* Opera/IE 8+ */
+			}
+
+			.placeholder-palestra-2 {
+				height: 280px !important;
 			}
 
 			.titulo-palestra {
@@ -190,7 +195,7 @@
 				<?php include "header.php" ?>
 			</div>
 			<div id="middle">
-				<div id="content">
+				<div class="content">
 					<div class="columns horarios">
 						<div class="header"></div>
 						<div class="horario-2">9h</div>
@@ -309,6 +314,71 @@
 						<a href="http://gurusorocaba.com.br/" class="dia-todo">
 							<span class="evento">Encontro GURU</span>
 						</a>
+					</div>
+				</div>
+				<div class="content">
+					<div class="columns horarios">
+						<div class="header"></div>
+						<div class="horario-2">10h</div>
+						<div class="horario">12h</div>
+						<div class="horario-2">14h</div>
+						<div class="horario-2">16h</div>
+					</div>
+					<div class="columns">
+						<div class="header">Segunda<br/>(07/05)</div>
+						<div class="placeholder-palestra"></div>
+						<div class="break">
+							Horário Livre
+						</div>
+						<div class="placeholder-palestra-2"></div>
+					</div>
+					<div class="columns">
+						<div class="header">Terça<br/>(08/05)</div>
+						<div class="placeholder-palestra"></div>
+						<div class="break">
+							Horário Livre
+						</div>
+						<div class="placeholder-palestra-2"></div>
+					</div>
+					<div class="columns">
+						<div class="header">Quarta<br/>(09/05)</div>
+						<a href="<?php echo $urlbase; ?>/agenda/#" class="palestra">
+							<span class="titulo-palestra">Mini Curso</span><br />
+							<span class="palestrante">ThoughtWorks</span>
+						</a>
+						<div class="break">
+							Horário Livre
+						</div>
+						<a href="<?php echo $urlbase; ?>/agenda/#" class="palestra">
+							<span class="titulo-palestra">Continuação do Mini Curso</span><br />
+							<span class="palestrante">ThoughtWorks</span>
+						</a>
+						<div class="placeholder-palestra"></div>
+					</div>
+					<div class="columns">
+						<div class="header">Quinta<br/>(10/05)</div>
+						<div class="placeholder-palestra"></div>
+						<div class="break">
+							Horário Livre
+						</div>
+						<div class="placeholder-palestra-2"></div>
+					</div>
+					<div class="columns">
+						<div class="header">Sexta<br/>(11/05)</div>
+						<a href="<?php echo $urlbase; ?>/agenda/#" class="palestra">
+							<span class="titulo-palestra">Mini Curso de Introdução ao Rails</span><br />
+							<span class="palestrante">Rodrigo Flores - Plataformatec</span>
+						</a>
+						<div class="break">
+							Horário Livre
+						</div>
+						<a href="<?php echo $urlbase; ?>/agenda/#" class="palestra-4">
+							<span class="titulo-palestra">Continuação do Mini Curso de Introdução ao Rails</span><br />
+							<span class="palestrante">Rodrigo Flores - Plataformatec</span>
+						</a>
+					</div>
+					<div class="columns">
+						<div class="header">Sábado<br/>(12/05)</div>
 					</div>
 				</div>
 				<div class="clear"></div>
