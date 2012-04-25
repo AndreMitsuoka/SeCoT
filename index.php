@@ -169,7 +169,7 @@
 				<div class="side">
 					<div class="patrocinadores">Patrocinadores</div>
 					<a href="http://www.yazigi.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-e6c24a57d4ab65cdc7cb04390c44098a.png" class="patrocinio" /></a>
-					<a href="http://www.uol.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/uol-o-melhor-conteudo.png" class="patrocinio" /></a>
+					<a href="http://www.uol.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_brilho_horizontal_preto.jpg" class="patrocinio" /></a>
 					<a href="http://www.padtec.com.br/indexbr.php"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_padtec.jpg" class="patrocinio" /></a>
 					<a href="http://www.everis.com/brazil/pt-BR/home/Paginas/home.aspx"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_everis.png" class="patrocinio" /></a>
 				</div>
