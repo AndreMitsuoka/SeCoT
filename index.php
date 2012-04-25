@@ -184,6 +184,7 @@
 					<a href="http://plataformatec.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-home.png" class="apoio" /></a>
 					<a href="http://www.thoughtworks.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/thoughtworks.jpg" class="apoio" /></a>
 					<a href="http://www.atleticacomputacao.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/atletica.jpg" class="apoio" /></a>
+					<a href="http://www.proex.ufscar.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/LogoProEx.png" class="apoio" /></a>
 				</div>
 				<div class="clear"></div>
 			</div>

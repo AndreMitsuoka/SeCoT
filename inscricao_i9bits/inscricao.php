@@ -169,6 +169,7 @@
 					<div class="warning">
 						A inscrição só será validada mediante o pagamento da taxa de inscrição.<br /><br />
 						As palestras, workshops e mini-cursos têm limite de participantes e podem estar desabilitadas caso tenham atingido esse limite.<br /><br />
+						Fique atento aos mini-cursos que serão realizados em paralelo às palestras.<br /><br />
 						A emissão do certificado só será realizada caso você tenha comparecido em no mínimo 75% das palestras selecionadas.
 					</div>
 				</div>
