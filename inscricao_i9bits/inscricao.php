@@ -167,8 +167,8 @@
 					<input type="text" id="instituicao" name="instituicao"		placeholder="Instituição" 	/><br />
 
 					<div class="warning">
-						A inscrição só será validada mediante o pagamento da taxa de inscrição.<br />
-						As palestras, workshops e mini-cursos têm limite de participantes e podem estar desabilitadas caso tenham atingido esse limite.<br />
+						A inscrição só será validada mediante o pagamento da taxa de inscrição.<br /><br />
+						As palestras, workshops e mini-cursos têm limite de participantes e podem estar desabilitadas caso tenham atingido esse limite.<br /><br />
 						A emissão do certificado só será realizada caso você tenha comparecido em no mínimo 75% das palestras selecionadas.
 					</div>
 				</div>
