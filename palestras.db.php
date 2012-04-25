@@ -12,12 +12,30 @@
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['titulo']      = "Scrum ou Kanban, qual você usaria?";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['descricao']   = "A palestra será uma comparação entre os métodos ágeis Scrum e Kanban e quais são os cenários que levam um time adotar um outro framework de desenvolvimento.  Além dos conceitos sobre os métodos, exemplos práticos e vivenciados no dia-a-dia de empresas e times onde tive a oportunidade de aplicar esses frameworks.";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César Augusto Felix Leite - UOL";
-	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "";
+	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "Mozair é um desenvolvedor multidisciplinar entusiasta de XP, Kanban e Lean.Formado em Ciência da Computação pela UFSCar (2004~2007), chegou a atuar como gerente de projetos pela Accenture, hoje atua como desenvolvedor/consultor pela ThoughtWorks. Durante esta jornada, participou da implantação e aplicação de métodos tradicionais e ágeis em projetos envolvendo clientes e parceiros em diversas localidades, como EUA, India, Italia e Brasil. Evangelista de boas práticas, já passou por vários cantos do Brasil falando sobre cultura ágil, refactoring, javascript e ruby. Recentemente esteve presente na Agile India (2012) e Ruby Conf Uruguay (2011).";
+	
+	
+	$palestras['me-formei-e-agora']['titulo']      = "Me formei, e agora?";
+	$palestras['me-formei-e-agora']['descricao']   = "nesta apresentação falaremos um pouco sobre o estado do mercado e os tipos de papéis que podem ser desempenhados no mundo de desenvolvimento de software";
+	$palestras['me-formei-e-agora']['palestrante'] = "Mozair - ThoughtWorks";
+	$palestras['me-formei-e-agora']['biografia']   = "Mozair é um desenvolvedor multidisciplinar entusiasta de XP, Kanban e Lean.Formado em Ciência da Computação pela UFSCar (2004~2007), chegou a atuar como gerente de projetos pela Accenture, hoje atua como desenvolvedor/consultor pela ThoughtWorks. Durante esta jornada, participou da implantação e aplicação de métodos tradicionais e ágeis em projetos envolvendo clientes e parceiros em diversas localidades, como EUA, India, Italia e Brasil. Evangelista de boas práticas, já passou por vários cantos do Brasil falando sobre cultura ágil, refactoring, javascript e ruby. Recentemente esteve presente na Agile India (2012) e Ruby Conf Uruguay (2011).";
+	
+	$palestras['crowd-pairing']['titulo']      = "Mini curso sobre testing and refactoring";
+	$palestras['crowd-pairing']['descricao']   = " nesta sessão, convidamos você a participar do desenvolvimento de uma pequena funcionalidade, vamos trabalhar juntos com foco em testes e refactoring";
+	$palestras['crowd-pairing']['palestrante'] = "Mozair - ThoughtWorks";
+	$palestras['crowd-pairing']['biografia']   = "";
+	
+		
+	$palestras['introducao-ao-rails']['titulo']      = "Mini curso de Ruby on Rails";
+	$palestras['introducao-ao-rails']['descricao']   = "Criado em 2005 pelo dinamarquês David Heinemeier Hansson, o framework de código aberto Ruby on Rails é hoje uma das principais alternativas para o desenvolvimento de aplicações web. Focado na simplicidade e no minimalismo, o framework foca bastante em manter o código conciso e na eficiência do programador em desenvolver novas funcionalidades. Esse curso dará uma visão geral da linguagem Ruby e do framework Ruby on Rails, desenvolvendo uma aplicação simples, totalmente orientada a testes e daremos também algumas dicas de boas práticas no desenvolvimento de aplicações web que aprendemos no nosso dia-a-dia.";
+	$palestras['introducao-ao-rails']['palestrante'] = "Rodrigo Flores";
+	$palestras['introducao-ao-rails']['biografia']   = "Nascido em São Paulo, Rodrigo Flores tem 25 anos, é formado em ciência da computação pelo IME-USP e trabalha para a Plataformatec desde 2010. Trabalha com o desenvolvimento de aplicações web usando Ruby on Rails desde 2009 e já contribuiu para diversos projetos open source como o próprio Rails, o middleware Rack, entre outros. Hoje, Rodrigo Flores, é um dos mantenedores do Devise uma das bibliotecas de autenticação mais utilizadas em aplicações Ruby on Rails.";
+	
 	
 	$palestras['why-know-agile']['titulo']      = "Why Know Agile";
-	$palestras['why-know-agile']['descricao']   = "";
+	$palestras['why-know-agile']['descricao']   = "O que significa ser ágil? Muito se ouve sobre o uso de metodologias ágeis para o desenvolvimento de software, mas o que isso significa? Quais os princípios que norteiam o desenvolvimento ágil? Como diferem das chamadas "metodologias tradicionais"? Como isso aumenta nossas chances de sucesso no desenvolvimento de software? Ao longo da palestra, apresentaremos a visão da Plataformatec em relação a estes pontos e porque apostamos que este tipo de abordagem faz sentido para o desenvolvimento de aplicativos voltados à internet.";
 	$palestras['why-know-agile']['palestrante'] = "Rafael Ozaki - Plataformatec";
-	$palestras['why-know-agile']['biografia']   = "";
+	$palestras['why-know-agile']['biografia']   = "Rafael Ozaki é Engenheiro Naval, formado pela Escola Politécnica da USP. Após trabalhar por 3 anos com consultoria estratégica, juntou-se em 2010 à Plataformatec, onde tem atuado no desenvolvimento de novos negócios e junto aos times de desenvolvimento em projetos voltados à internet.";
 	
 	$palestras['os-desafios-de-ti-no-e-commerce']['titulo']      = "Os desafios de TI no e-commerce";
 	$palestras['os-desafios-de-ti-no-e-commerce']['descricao']   = "Nosso objetivo é apresentar para este público de TI como está o mercado de e-commerce e os desafios encontrados neste negócio";
