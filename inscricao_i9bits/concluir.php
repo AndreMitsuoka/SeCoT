@@ -1,13 +1,27 @@
-<?php
+<style type="text/css">
+	h1 {
+		color: #000;
+		display: block;
+		font: 40px/60px 'RobotoLight', Arial, sans-serif;
+		margin: 30px auto;
+		text-align: center;
+	}
 
-	print_r($_POST);
+	h2 {
+		color: #dedede;
+		display: block;
+		font: 20px/30px 'RobotoLight', Arial, sans-serif;
+		margin: 30px auto;
+		text-align: center;
+	}
+</style>
+<?php
 
 	if(!isset($_POST['nome']) || !isset($_POST['email']) || !isset($_POST['rg'])){
 		header('Location: inscricao.php');
 	}
 
 	require "connect.php";
-	//require "email.php";
 
 	$nome 		 = $_POST['nome'];
 	$email 		 = $_POST['email'];
@@ -24,7 +38,7 @@
 
 	$participante = mysql_insert_id();
 
-	echo "Participante ID: ".$participante;
+	//echo "Participante ID: ".$participante;
 
 	$palestras = $_POST['palestras'];
 
@@ -37,8 +51,7 @@
 		mysql_query("UPDATE palestras SET total = total + 1 WHERE id = '".$p."'");
 	}
 
-	//$body = "Inscrição confirmada";
-
-	//Email::Write($nome, $email, $body);
+	echo "<h1>Inscri&ccedil;&atilde;o realizada com sucesso!</h1>";
+	echo "<h2>Favor realizar o pagamento da taxa com um dos organizadores.</h2>";
 
 ?>

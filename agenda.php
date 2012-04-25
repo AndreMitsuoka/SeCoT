@@ -269,16 +269,16 @@
 						<div class="break">
 							Horário Livre
 						</div>
-						<a href="#" class="palestra">
+						<a href="<?php echo $urlbase; ?>/agenda/coding-dojo" class="palestra">
 							<span class="titulo-palestra">Coding Dojo</span><br />
 							<span class="palestrante">Eher - Apontador</span>
 						</a>
 						<div class="break">
 							Coffee Break
 						</div>
-						<a href="#" class="palestra-3">
-							<span class="titulo-palestra">ThoughtWorks</span><br />
-							<span class="palestrante"></span>
+						<a href="<?php echo $urlbase; ?>/agenda/me-formei-e-agora" class="palestra-3">
+							<span class="titulo-palestra">Me formei, e agora?</span><br />
+							<span class="palestrante">Mozair - ThoughtWorks</span>
 						</a>
 					</div>
 					<div class="columns">
@@ -342,15 +342,15 @@
 					</div>
 					<div class="columns">
 						<div class="header">Quarta<br/>(09/05)</div>
-						<a href="<?php echo $urlbase; ?>/agenda/#" class="palestra">
-							<span class="titulo-palestra">Mini Curso</span><br />
+						<a href="<?php echo $urlbase; ?>/agenda/crowd-pairing" class="palestra">
+							<span class="titulo-palestra">Mini curso sobre testing and refactoring</span><br />
 							<span class="palestrante">ThoughtWorks</span>
 						</a>
 						<div class="break">
 							Horário Livre
 						</div>
-						<a href="<?php echo $urlbase; ?>/agenda/#" class="palestra">
-							<span class="titulo-palestra">Continuação do Mini Curso</span><br />
+						<a href="<?php echo $urlbase; ?>/agenda/crowd-pairing" class="palestra">
+							<span class="titulo-palestra">Continuação do Mini curso sobre testing and refactoring</span><br />
 							<span class="palestrante">ThoughtWorks</span>
 						</a>
 						<div class="placeholder-palestra"></div>
@@ -365,14 +365,14 @@
 					</div>
 					<div class="columns">
 						<div class="header">Sexta<br/>(11/05)</div>
-						<a href="<?php echo $urlbase; ?>/agenda/#" class="palestra">
+						<a href="<?php echo $urlbase; ?>/agenda/introducao-ao-rails" class="palestra">
 							<span class="titulo-palestra">Mini Curso de Introdução ao Rails</span><br />
 							<span class="palestrante">Rodrigo Flores - Plataformatec</span>
 						</a>
 						<div class="break">
 							Horário Livre
 						</div>
-						<a href="<?php echo $urlbase; ?>/agenda/#" class="palestra-4">
+						<a href="<?php echo $urlbase; ?>/agenda/introducao-ao-rails" class="palestra-4">
 							<span class="titulo-palestra">Continuação do Mini Curso de Introdução ao Rails</span><br />
 							<span class="palestrante">Rodrigo Flores - Plataformatec</span>
 						</a>

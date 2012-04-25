@@ -113,6 +113,22 @@
 					submitButton.addEventListener('click', submit, false);
 				}
 
+				function checkTheBox() {
+					var flag = 0;
+					for (var i = 0; i < document.inscricao["palestras[]"].length; i++){
+						if(document.inscricao["palestras[]"][i].checked){ 
+							flag ++;
+						}
+					}
+
+					if (flag === 0) {
+						alert ("É necessário selecionar ao menos uma palestra.");
+						return false;
+					}
+
+					return true;
+				}
+
 				function submit(e){
 					console.log(e);
 					
@@ -150,6 +166,9 @@
 						rgInput.style.border = defaultBorder;
 					}
 
+					if(!checkTheBox())
+						valid = false;
+
 					return valid;
 				}
 			}
@@ -158,7 +177,7 @@
 	<body>
 		<div id="content-inscricao">
 			<div class="title">Inscrição</div>
-			<form action="concluir.php" method="POST">
+			<form name="inscricao" action="concluir.php" method="POST">
 				<div id="info">
 					<span>Dados Pessoais:</span></br></br>
 					<input type="text" id="nome"		name="nome"				placeholder="Nome" 			/><br />
