@@ -12,7 +12,7 @@
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['titulo']      = "Scrum ou Kanban, qual você usaria?";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['descricao']   = "A palestra será uma comparação entre os métodos ágeis Scrum e Kanban e quais são os cenários que levam um time adotar um outro framework de desenvolvimento.  Além dos conceitos sobre os métodos, exemplos práticos e vivenciados no dia-a-dia de empresas e times onde tive a oportunidade de aplicar esses frameworks.";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César Augusto Felix Leite - UOL";
-	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "Mozair é um desenvolvedor multidisciplinar entusiasta de XP, Kanban e Lean.Formado em Ciência da Computação pela UFSCar (2004~2007), chegou a atuar como gerente de projetos pela Accenture, hoje atua como desenvolvedor/consultor pela ThoughtWorks. Durante esta jornada, participou da implantação e aplicação de métodos tradicionais e ágeis em projetos envolvendo clientes e parceiros em diversas localidades, como EUA, India, Italia e Brasil. Evangelista de boas práticas, já passou por vários cantos do Brasil falando sobre cultura ágil, refactoring, javascript e ruby. Recentemente esteve presente na Agile India (2012) e Ruby Conf Uruguay (2011).";
+	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "";
 	
 	
 	$palestras['me-formei-e-agora']['titulo']      = "Me formei, e agora?";
@@ -23,7 +23,8 @@
 	$palestras['crowd-pairing']['titulo']      = "Mini curso sobre testing and refactoring";
 	$palestras['crowd-pairing']['descricao']   = " nesta sessão, convidamos você a participar do desenvolvimento de uma pequena funcionalidade, vamos trabalhar juntos com foco em testes e refactoring";
 	$palestras['crowd-pairing']['palestrante'] = "Mozair - ThoughtWorks";
-	$palestras['crowd-pairing']['biografia']   = "";
+	$palestras['crowd-pairing']['biografia']   = "Mozair é um desenvolvedor multidisciplinar entusiasta de XP, Kanban e Lean.Formado em Ciência da Computação pela UFSCar (2004~2007), chegou a atuar como gerente de projetos pela Accenture, hoje atua como desenvolvedor/consultor pela ThoughtWorks. Durante esta jornada, participou da implantação e aplicação de métodos tradicionais e ágeis em projetos envolvendo clientes e parceiros em diversas localidades, como EUA, India, Italia e Brasil. Evangelista de boas práticas, já passou por vários cantos do Brasil falando sobre cultura ágil, refactoring, javascript e ruby. Recentemente esteve presente na Agile India (2012) e Ruby Conf Uruguay (2011).";
+";
 	
 		
 	$palestras['introducao-ao-rails']['titulo']      = "Mini curso de Ruby on Rails";
@@ -34,7 +35,7 @@
 	
 	$palestras['why-know-agile']['titulo']      = "Why Know Agile";
 	$palestras['why-know-agile']['descricao']   = "O que significa ser ágil? Muito se ouve sobre o uso de metodologias ágeis para o desenvolvimento de software, mas o que isso significa? Quais os princípios que norteiam o desenvolvimento ágil? Como diferem das chamadas \"metodologias tradicionais\"? Como isso aumenta nossas chances de sucesso no desenvolvimento de software? Ao longo da palestra, apresentaremos a visão da Plataformatec em relação a estes pontos e porque apostamos que este tipo de abordagem faz sentido para o desenvolvimento de aplicativos voltados à internet.";
-	$palestras['why-know-agile']['palestrante'] = "Rafael Ozaki - Plataformatec";
+	$palestras['why-know-agile']['palestrante'] = "Rafael Ozaki";
 	$palestras['why-know-agile']['biografia']   = "Rafael Ozaki é Engenheiro Naval, formado pela Escola Politécnica da USP. Após trabalhar por 3 anos com consultoria estratégica, juntou-se em 2010 à Plataformatec, onde tem atuado no desenvolvimento de novos negócios e junto aos times de desenvolvimento em projetos voltados à internet.";
 	
 	$palestras['os-desafios-de-ti-no-e-commerce']['titulo']      = "Os desafios de TI no e-commerce";
