@@ -28,7 +28,7 @@
 	$rg 		 = $_POST['rg'];
 	$instituicao = $_POST['instituicao'];
 
-	$query = sprintf("INSERT INTO participantes VALUES (0, '%s', '%s', '%s', '%s')", 
+	$query = sprintf("INSERT INTO participantes VALUES (0, '%s', '%s', '%s', '%s', 'N')", 
 		mysql_real_escape_string($nome), 
 		mysql_real_escape_string($email),
 		mysql_real_escape_string($rg),
@@ -44,7 +44,7 @@
 
 	foreach ($palestras as $p){
 
-		$query = sprintf("INSERT INTO escolha VALUES (".$participante.", ".$p.")");
+		$query = sprintf("INSERT INTO escolha VALUES (".$participante.", ".$p.", 'N')");
 
 		mysql_query($query);
 

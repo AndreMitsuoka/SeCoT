@@ -14,7 +14,6 @@
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['palestrante'] = "César Augusto Felix Leite - UOL";
 	$palestras['scrum-ou-kanban-qual-voce-usaria']['biografia']   = "";
 	
-	
 	$palestras['me-formei-e-agora']['titulo']      = "Me formei, e agora?";
 	$palestras['me-formei-e-agora']['descricao']   = "nesta apresentação falaremos um pouco sobre o estado do mercado e os tipos de papéis que podem ser desempenhados no mundo de desenvolvimento de software";
 	$palestras['me-formei-e-agora']['palestrante'] = "Mozair - ThoughtWorks";
@@ -23,15 +22,12 @@
 	$palestras['crowd-pairing']['titulo']      = "Mini curso sobre testing and refactoring";
 	$palestras['crowd-pairing']['descricao']   = " nesta sessão, convidamos você a participar do desenvolvimento de uma pequena funcionalidade, vamos trabalhar juntos com foco em testes e refactoring";
 	$palestras['crowd-pairing']['palestrante'] = "Mozair - ThoughtWorks";
-	$palestras['crowd-pairing']['biografia']   = "Mozair é um desenvolvedor multidisciplinar entusiasta de XP, Kanban e Lean.Formado em Ciência da Computação pela UFSCar (2004~2007), chegou a atuar como gerente de projetos pela Accenture, hoje atua como desenvolvedor/consultor pela ThoughtWorks. Durante esta jornada, participou da implantação e aplicação de métodos tradicionais e ágeis em projetos envolvendo clientes e parceiros em diversas localidades, como EUA, India, Italia e Brasil. Evangelista de boas práticas, já passou por vários cantos do Brasil falando sobre cultura ágil, refactoring, javascript e ruby. Recentemente esteve presente na Agile India (2012) e Ruby Conf Uruguay (2011).";
-";
-	
+	$palestras['crowd-pairing']['biografia']   = "Mozair é um desenvolvedor multidisciplinar entusiasta de XP, Kanban e Lean. Formado em Ciência da Computação pela UFSCar (2004~2007), chegou a atuar como gerente de projetos pela Accenture, hoje atua como desenvolvedor/consultor pela ThoughtWorks. Durante esta jornada, participou da implantação e aplicação de métodos tradicionais e ágeis em projetos envolvendo clientes e parceiros em diversas localidades, como EUA, India, Italia e Brasil. Evangelista de boas práticas, já passou por vários cantos do Brasil falando sobre cultura ágil, refactoring, javascript e ruby. Recentemente esteve presente na Agile India (2012) e Ruby Conf Uruguay (2011).";	
 		
 	$palestras['introducao-ao-rails']['titulo']      = "Mini curso de Ruby on Rails";
 	$palestras['introducao-ao-rails']['descricao']   = "Criado em 2005 pelo dinamarquês David Heinemeier Hansson, o framework de código aberto Ruby on Rails é hoje uma das principais alternativas para o desenvolvimento de aplicações web. Focado na simplicidade e no minimalismo, o framework foca bastante em manter o código conciso e na eficiência do programador em desenvolver novas funcionalidades. Esse curso dará uma visão geral da linguagem Ruby e do framework Ruby on Rails, desenvolvendo uma aplicação simples, totalmente orientada a testes e daremos também algumas dicas de boas práticas no desenvolvimento de aplicações web que aprendemos no nosso dia-a-dia.";
 	$palestras['introducao-ao-rails']['palestrante'] = "Rodrigo Flores";
 	$palestras['introducao-ao-rails']['biografia']   = "Nascido em São Paulo, Rodrigo Flores tem 25 anos, é formado em ciência da computação pelo IME-USP e trabalha para a Plataformatec desde 2010. Trabalha com o desenvolvimento de aplicações web usando Ruby on Rails desde 2009 e já contribuiu para diversos projetos open source como o próprio Rails, o middleware Rack, entre outros. Hoje, Rodrigo Flores, é um dos mantenedores do Devise uma das bibliotecas de autenticação mais utilizadas em aplicações Ruby on Rails.";
-	
 	
 	$palestras['why-know-agile']['titulo']      = "Why Know Agile";
 	$palestras['why-know-agile']['descricao']   = "O que significa ser ágil? Muito se ouve sobre o uso de metodologias ágeis para o desenvolvimento de software, mas o que isso significa? Quais os princípios que norteiam o desenvolvimento ágil? Como diferem das chamadas \"metodologias tradicionais\"? Como isso aumenta nossas chances de sucesso no desenvolvimento de software? Ao longo da palestra, apresentaremos a visão da Plataformatec em relação a estes pontos e porque apostamos que este tipo de abordagem faz sentido para o desenvolvimento de aplicativos voltados à internet.";
@@ -72,6 +68,11 @@
 	$palestras['recuperacao-de-informacao-visual']['descricao']   = "Avanços em técnicas de aquisição, compressão e transmissão de dados têm permitido a criação de bibliotecas de mídia digital cada vez maiores. Na medida em que cresce o volume de imagens e vídeos nessas coleções, cresce também o interesse em sistemas capazes de gerenciá-los de maneira eficiente. Essa dificuldade vem sendo resolvida por meio de sistemas capazes de abstrair representações semânticas de alto nível a partir das informações de baixo nível desses dados. Devido à complexidade desse material, existem quatro desafios principais na construção tais sistemas: (1) implementar algoritmos para codificar as propriedades de baixo nível de imagens e vídeos em vetores de características; (2) desenvolver uma medida de similaridade para comparar esses dados a partir de seus vetores; (3) responder rapidamente a consultas por similaridade sobre, potencialmente, milhões de entradas; e (4) apresentar os resultados de forma amigável ao usuário. Inúmeras técnicas têm sido propostas para atender a esses requisitos. Todavia, apesar de todos os esforços o gerenciamento de dados mutimídia ainda está em seu estado preliminar. Este seminário apresenta uma visão geral de diferentes métodos propostos para atender aos quesitos supracitados, analisando as suas contribuições teóricas e empíricas para a recuperação de informação visual.";
 	$palestras['recuperacao-de-informacao-visual']['palestrante'] = "Dr. Jurandy G. Almeida Jr";
 	$palestras['recuperacao-de-informacao-visual']['biografia']   = "Jurandy Almeida possui graduação em Ciência da Computação (UNESP, 2004), mestrado (2007) e doutorado (2011) em Ciência da Computação (UNICAMP), com estágio doutoral no Dept. of Computing Science, University of Alberta em Edmonton, Canadá. Atualmente, é pesquisador colaborador e realiza estágio pós-doutoral no Instituto de Computação da UNICAMP. Possui trabalhos publicados em renomadas revistas e conferências nacionais e internacionais. Realiza pesquisa nas áreas de Banco de Dados, Processamento de Imagens e Visão Computacional, atuando, principalmente, em temas relacionados à Recuperação de Imagens e Vídeos.";
+
+	$palestras['cloud-computing']['titulo']      = "Cloud Computing";
+	$palestras['cloud-computing']['descricao']   = "";
+	$palestras['cloud-computing']['palestrante'] = "UOL";
+	$palestras['cloud-computing']['biografia']   = "";
 
 	$palestras['coding-dojo']['titulo']      = "Coding Dojo";
 	$palestras['coding-dojo']['descricao']   = "Um Coding Dojo é um encontro onde um grupo de programadores de vários níveis de conhecimento se reúne para treinar, em um ambiente inclusivo e colaborativo boas técnicas e metodologias de desenvolvimento de software através da solução de um pequeno desafio de programação.";

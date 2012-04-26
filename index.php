@@ -56,7 +56,6 @@
 			}
 
 			#data,
-			#inscricao,
 			.patrocinadores {
 				color: #FFF;
 				font: 25px/60px 'RobotoLight', Arial, sans-serif;
@@ -70,15 +69,32 @@
 			}
 
 			#inscricao {
-				background-color: #0e5b8c;
+				background: #0e5b8c url('/secot/img/arrow.png') no-repeat;
+				background-position: 190px center;
+				color: #FFF;
 				cursor: pointer;
+				display: block;
+				font: 25px/60px 'RobotoLight', Arial, sans-serif;
+				height: 60px;
+				padding-left: 50px;
+				text-decoration: none;
+				width: 100%;
+			}
+
+			.preco-descricao {
+				display: inline-block;
+				margin: 8px 10px 8px 20px;
+				text-align: left;
+				vertical-align: middle;
+				width: 145px;
 			}
 
 			.preco {
-				display: block;
-				margin: 8px 40px;
+				display: inline-block;
+				margin: 8px 20px 8px 0px;
 				text-align: right;
-				width: 180px;
+				vertical-align: middle;
+				width: 65px;
 			}
 
 			.patrocinadores {
@@ -140,7 +156,7 @@
 						foreach ($palestras as $key=>$palestra) {
 							echo '<a href="'.$urlbase.'/agenda/'.$key.'" class="palestra" >';
 							echo $palestra['titulo'].' - '.$palestra['palestrante'];
-							echo '</a>';
+							echo '</a><br />';
 						}
 					?>
 					<br /><br />
@@ -158,14 +174,13 @@
 					<div id="data">07 à 12 de Maio</div>
 					<canvas id="countdown" width="260" height="100"></canvas>
 				</div>
-				<!--
 				<div class="side">
-					<div id="inscricao">Inscreva-se</div>
-					<span class="preco">Aluno UFSCar: R$ 15,00</span>
-					<span class="preco">Estudante: R$ 20,00</span>
-					<span class="preco">Demais: R$ 40,00</span>
+					<a href="<?php echo $urlbase; ?>/inscricao" id="inscricao">Inscreva-se</a>
+					<span class="preco-descricao">Estudantes de Computação da UFSCar Sorocaba:</span><span class="preco">R$ 10,00</span><br />
+					<span class="preco-descricao">Estudantes de outros cursos da UFSCar:</span><span class="preco">R$ 15,00</span><br />
+					<span class="preco-descricao">Estudantes de outras instituições:</span><span class="preco">R$ 20,00</span><br />
+					<span class="preco-descricao">Demais:</span><span class="preco">R$ 40,00</span>
 				</div>
-				-->
 				<div class="side">
 					<div class="patrocinadores">Patrocinadores</div>
 					<a href="http://www.yazigi.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-e6c24a57d4ab65cdc7cb04390c44098a.png" class="patrocinio" /></a>

@@ -11,18 +11,19 @@
 
 			* {
 				border: 0;
+				font-family: 'RobotoRegular', Arial, sans-serif;
 				margin: 0;
 				padding: 0;
 			}
 
 			html, body {
-				height: 707px;
+				height: 805px;
 				overflow: hidden;
 			}
 
 			#content-inscricao {
 				background-color: #FFF;
-				height: 700px;
+				height: 805px;
 				margin: 0 auto;
 				width: 950px;
 			}
@@ -189,7 +190,8 @@
 						A inscrição só será validada mediante o pagamento da taxa de inscrição.<br /><br />
 						As palestras, workshops e mini-cursos têm limite de participantes e podem estar desabilitadas caso tenham atingido esse limite.<br /><br />
 						Fique atento aos mini-cursos que serão realizados em paralelo às palestras.<br /><br />
-						A emissão do certificado só será realizada caso você tenha comparecido em no mínimo 75% das palestras selecionadas.
+						A emissão do certificado só será realizada caso você tenha comparecido em no mínimo 75% das palestras selecionadas.<br /><br />
+						Anote as palestras de sua escolha para não perder nenhuma.
 					</div>
 				</div>
 				<div id="palestras">

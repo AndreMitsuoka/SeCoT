@@ -17,7 +17,7 @@
 				border: 0px;
 				border-radius: 4px;
 				float: left;
-				height: 707px;
+				height: 805px;
 				margin: 10px;
 				overflow: hidden;
 				width: 950px;

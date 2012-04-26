@@ -330,7 +330,11 @@
 						<div class="break">
 							Horário Livre
 						</div>
-						<div class="placeholder-palestra-2"></div>
+						<div class="placeholder-palestra"></div>
+						<a href="<?php echo $urlbase; ?>/agenda/cloud-computing" class="palestra">
+							<span class="titulo-palestra">Cloud Computing</span><br />
+							<span class="palestrante">UOL</span>
+						</a>
 					</div>
 					<div class="columns">
 						<div class="header">Terça<br/>(08/05)</div>
