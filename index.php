@@ -143,6 +143,16 @@
 				<?php include "header.php" ?>
 			</div>
 			<div id="middle">
+				
+				<div class="content">
+					<span class="titulo">Updates</span>
+					<p>Gostaríamos de convidadar todos para a abertura da Semana da Computação e Tecnologia IV, na segunda-feira 9h. Venham participar do nosso café da manhã, juntamente com alguns dos nossos patrocinadores e palestrantes.</p>
+					<p> Também vamos anunciar que a <a href ="http://www.thoughtworks.com/">ThoughtWorks</a> estará realizando a aplicação do Assessment na quinta-feira, as vagas são limitas, por favor mandar um e-mail para ufscar.caccs@gmail.com com o assunto Assessment para realizar as inscrições</p>
+					<p>E atenção pessoal houveram algumas mudanças na agenda, verifiquem se seus horários não foram alterados.</p>
+					
+				
+				
+				</div>
 				<div class="content">
 					<span class="titulo">Bem-vindo!</span>
 					<p>A Semana da Computação e Tecnologia (<a href="#">SeCot</a>) é um evento realizado pelos alunos de <a href="#">Ciências da Computação</a> da <a href="#">UFSCar Sorocaba</a>. Seu foco é disseminar conhecimentos e gerar debates sobre computação e suas tecnologias, introduzir às diversas carreiras no mercado de trabalho e gerar networking entre a comunidade.</p>
