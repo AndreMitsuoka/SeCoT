@@ -362,10 +362,11 @@
 					<div class="columns">
 						<div class="header">Quinta<br/>(10/05)</div>
 						<div class="placeholder-palestra"></div>
-						<div class="break">
-							Horário Livre
-						</div>
-						<div class="placeholder-palestra-2"></div>
+						<a href="<?php echo $urlbase; ?>/agenda/introducao-ao-rails" class="palestra-3">
+							<span class="titulo-palestra">Assessment</span><br />
+							<span class="palestrante">ThoughtWorks</span>
+						</a>
+						<div class="placeholder-palestra"></div>
 					</div>
 					<div class="columns">
 						<div class="header">Sexta<br/>(11/05)</div>

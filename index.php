@@ -187,6 +187,7 @@
 					<a href="http://www.uol.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_brilho_horizontal_preto.jpg" class="patrocinio" /></a>
 					<a href="http://www.padtec.com.br/indexbr.php"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_padtec.jpg" class="patrocinio" /></a>
 					<a href="http://www.everis.com/brazil/pt-BR/home/Paginas/home.aspx"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo_everis.png" class="patrocinio" /></a>
+					<a href="http://www.thoughtworks.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/thoughtworks.jpg" class="patrocinio" /></a>
 				</div>
 				<div class="side">
 					<div class="patrocinadores">Apoio</div>
@@ -197,7 +198,6 @@
 					<a href="http://www.codeminer42.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/codeminer42.png" class="apoio" /></a>
 					<a href="http://www.cesar.org.br/site/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo.png" class="apoio" /></a>
 					<a href="http://plataformatec.com.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/logo-home.png" class="apoio" /></a>
-					<a href="http://www.thoughtworks.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/thoughtworks.jpg" class="apoio" /></a>
 					<a href="http://www.atleticacomputacao.com/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/atletica.jpg" class="apoio" /></a>
 					<a href="http://www.proex.ufscar.br/"><img src="<?php echo $urlbase; ?>/img/patrocinadores/LogoProEx.png" class="apoio" /></a>
 				</div>
